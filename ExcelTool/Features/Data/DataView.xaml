@@ -1,0 +1,371 @@
+﻿<UserControl x:Class="ExcelTool.Features.Data.DataView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d"
+             d:DesignHeight="650"
+             d:DesignWidth="1050">
+
+    <Grid Background="#F5F7FB">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+
+        <!-- ===================================================== -->
+        <!-- HEADER -->
+        <!-- ===================================================== -->
+
+        <StackPanel Grid.Row="0"
+                    Margin="25,25,25,15">
+
+            <TextBlock Text="Dữ liệu"
+                       FontSize="28"
+                       FontWeight="Bold"
+                       Foreground="#172033"/>
+
+            <TextBlock Text="Quản lý dữ liệu sản phẩm và các lần tính giá"
+                       Margin="0,5,0,0"
+                       FontSize="14"
+                       Foreground="#7A8499"/>
+
+        </StackPanel>
+
+
+        <!-- ===================================================== -->
+        <!-- TOOLBAR -->
+        <!-- ===================================================== -->
+
+        <Grid Grid.Row="1"
+              Margin="25,0,25,15">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="150"/>
+                <ColumnDefinition Width="130"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+
+            <!-- SEARCH -->
+
+            <Border Grid.Column="0"
+                    Height="42"
+                    Background="White"
+                    BorderBrush="#E1E6EF"
+                    BorderThickness="1"
+                    CornerRadius="8">
+
+                <Grid>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="45"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock Grid.Column="0"
+                               Text="⌕"
+                               FontSize="24"
+                               Foreground="#7A8499"
+                               HorizontalAlignment="Center"
+                               VerticalAlignment="Center"/>
+
+                    <TextBox x:Name="SearchTextBox"
+                     Grid.Column="1"
+                     BorderThickness="0"
+                     Background="Transparent"
+                     VerticalContentAlignment="Center"
+                     FontSize="14"/>        
+
+                </Grid>
+
+            </Border>
+
+
+            <!-- CUSTOMER FILTER -->
+
+            <ComboBox x:Name="CustomerFilterComboBox"
+                      Grid.Column="1"
+                      Height="42"
+                      Margin="10,0,0,0"
+                      VerticalContentAlignment="Center"
+                      FontSize="13">
+
+                <ComboBoxItem Content="Tất cả khách hàng"
+                              IsSelected="True"/>
+
+            </ComboBox>
+
+
+            <!-- DATE FILTER -->
+
+            <ComboBox x:Name="DateFilterComboBox"
+                      Grid.Column="2"
+                      Height="42"
+                      Margin="10,0,0,0"
+                      VerticalContentAlignment="Center"
+                      FontSize="13">
+
+                <ComboBoxItem Content="Tất cả thời gian"
+                              IsSelected="True"/>
+
+            </ComboBox>
+
+
+            <!-- CREATE -->
+
+            <Button Grid.Column="3"
+                    Height="42"
+                    Margin="10,0,0,0"
+                    Padding="18,0"
+                    Background="#1976D2"
+                    Foreground="White"
+                    BorderThickness="0"
+                    FontSize="14"
+                    FontWeight="SemiBold"
+                    Cursor="Hand"
+                    Content="+  Tạo dữ liệu"
+                    Click="CreateData_Click"/>
+
+        </Grid>
+
+
+        <!-- ===================================================== -->
+        <!-- DATA TABLE -->
+        <!-- ===================================================== -->
+
+        <Border Grid.Row="2"
+                Margin="25,0,25,25"
+                Background="White"
+                CornerRadius="10"
+                BorderBrush="#E1E6EF"
+                BorderThickness="1">
+
+            <Grid>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+
+                <!-- ================================================= -->
+                <!-- TABLE HEADER -->
+                <!-- ================================================= -->
+
+                <Border Grid.Row="0"
+                        Background="#F8FAFD"
+                        BorderBrush="#E1E6EF"
+                        BorderThickness="0,0,0,1">
+
+                    <Grid>
+
+                        <Grid.ColumnDefinitions>
+
+                            <ColumnDefinition Width="180"/>
+                            <ColumnDefinition Width="110"/>
+                            <ColumnDefinition Width="150"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="140"/>
+                            <ColumnDefinition Width="110"/>
+                            <ColumnDefinition Width="120"/>
+                            <ColumnDefinition Width="100"/>
+
+                        </Grid.ColumnDefinitions>
+
+
+                        <TextBlock Grid.Column="0"
+                                   Text="Mã sản phẩm"
+                                   Margin="15,0"
+                                   VerticalAlignment="Center"
+                                   FontWeight="SemiBold"
+                                   Foreground="#596579"/>
+
+
+                        <TextBlock Grid.Column="1"
+                                   Text="Ngày lập"
+                                   VerticalAlignment="Center"
+                                   FontWeight="SemiBold"
+                                   Foreground="#596579"/>
+
+
+                        <TextBlock Grid.Column="2"
+                                   Text="Khách hàng"
+                                   VerticalAlignment="Center"
+                                   FontWeight="SemiBold"
+                                   Foreground="#596579"/>
+
+
+                        <TextBlock Grid.Column="3"
+                                   Text="Tên sản phẩm"
+                                   VerticalAlignment="Center"
+                                   FontWeight="SemiBold"
+                                   Foreground="#596579"/>
+
+
+                        <TextBlock Grid.Column="4"
+                                   Text="Nhóm sản phẩm"
+                                   VerticalAlignment="Center"
+                                   FontWeight="SemiBold"
+                                   Foreground="#596579"/>
+
+
+                        <TextBlock Grid.Column="5"
+                                   Text="Số lượng"
+                                   VerticalAlignment="Center"
+                                   FontWeight="SemiBold"
+                                   Foreground="#596579"/>
+
+
+                        <TextBlock Grid.Column="6"
+                                   Text="Giá bán"
+                                   VerticalAlignment="Center"
+                                   FontWeight="SemiBold"
+                                   Foreground="#596579"/>
+
+
+                        <TextBlock Grid.Column="7"
+                                   Text="Chi tiết"
+                                   VerticalAlignment="Center"
+                                   FontWeight="SemiBold"
+                                   Foreground="#596579"/>
+
+                    </Grid>
+
+                </Border>
+
+
+                <!-- ================================================= -->
+                <!-- DATA -->
+                <!-- ================================================= -->
+
+                <ScrollViewer Grid.Row="1"
+                              VerticalScrollBarVisibility="Auto"
+                              HorizontalScrollBarVisibility="Disabled">
+
+                    <ItemsControl x:Name="ProductItemsControl">
+
+                        <ItemsControl.ItemTemplate>
+
+                            <DataTemplate>
+
+                                <Border Height="62"
+                                        BorderBrush="#EEF1F5"
+                                        BorderThickness="0,0,0,1">
+
+                                    <Grid>
+
+                                        <Grid.ColumnDefinitions>
+
+                                            <ColumnDefinition Width="180"/>
+                                            <ColumnDefinition Width="110"/>
+                                            <ColumnDefinition Width="150"/>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="140"/>
+                                            <ColumnDefinition Width="110"/>
+                                            <ColumnDefinition Width="120"/>
+                                            <ColumnDefinition Width="100"/>
+
+                                        </Grid.ColumnDefinitions>
+
+
+                                        <!-- MÃ -->
+
+                                        <TextBlock Grid.Column="0"
+                                                   Text="{Binding ProductCode}"
+                                                   Margin="15,0"
+                                                   VerticalAlignment="Center"
+                                                   Foreground="#1976D2"
+                                                   FontWeight="SemiBold"
+                                                   TextTrimming="CharacterEllipsis"/>
+
+
+                                        <!-- NGÀY -->
+
+                                        <TextBlock Grid.Column="1"
+                                                   Text="{Binding CreatedDate, StringFormat={}{0:dd/MM/yyyy}}"
+                                                   VerticalAlignment="Center"
+                                                   Foreground="#596579"/>
+
+
+                                        <!-- KHÁCH HÀNG -->
+
+                                        <TextBlock Grid.Column="2"
+                                                   Text="{Binding CustomerId}"
+                                                   VerticalAlignment="Center"
+                                                   Foreground="#253044"
+                                                   TextTrimming="CharacterEllipsis"/>
+
+
+                                        <!-- TÊN SẢN PHẨM -->
+
+                                        <TextBlock Grid.Column="3"
+                                                   Text="{Binding ProductName}"
+                                                   VerticalAlignment="Center"
+                                                   Foreground="#253044"
+                                                   TextTrimming="CharacterEllipsis"/>
+
+
+                                        <!-- NHÓM SẢN PHẨM -->
+
+                                        <TextBlock Grid.Column="4"
+                                                   Text="{Binding ProductType}"
+                                                   VerticalAlignment="Center"
+                                                   Foreground="#596579"
+                                                   TextTrimming="CharacterEllipsis"/>
+
+
+                                        <!-- SỐ LƯỢNG -->
+
+                                        <TextBlock Grid.Column="5"
+                                                   Text="{Binding Quantity, StringFormat={}{0:N0}}"
+                                                   VerticalAlignment="Center"
+                                                   Foreground="#596579"/>
+
+
+                                        <!-- GIÁ BÁN -->
+
+                                        <TextBlock Grid.Column="6"
+                                                   Text="{Binding UnitPrice, StringFormat={}{0:N0}}"
+                                                   VerticalAlignment="Center"
+                                                   Foreground="#1976D2"
+                                                   FontWeight="SemiBold"/>
+
+
+                                        <!-- XEM -->
+
+                                        <Button Grid.Column="7"
+                                                Content="Xem"
+                                                Width="65"
+                                                Height="30"
+                                                Background="Transparent"
+                                                BorderBrush="#1976D2"
+                                                BorderThickness="1"
+                                                Foreground="#1976D2"
+                                                Cursor="Hand"
+                                                Tag="{Binding Id}"
+                                                Click="ViewData_Click"/>
+
+                                    </Grid>
+
+                                </Border>
+
+                            </DataTemplate>
+
+                        </ItemsControl.ItemTemplate>
+
+                    </ItemsControl>
+
+                </ScrollViewer>
+
+            </Grid>
+
+        </Border>
+
+    </Grid>
+
+</UserControl>

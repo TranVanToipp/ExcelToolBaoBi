@@ -1,0 +1,116 @@
+<UserControl x:Class="ExcelTool.Features.Settings.Pricing.Views.PricingSettingsSidebar"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Background="White">
+
+	<Border Background="White"
+            BorderBrush="#E1E6EF"
+            BorderThickness="0,0,1,0">
+
+		<ScrollViewer VerticalScrollBarVisibility="Auto">
+
+			<StackPanel Margin="10">
+
+				<StackPanel Margin="10,20,10,15">
+
+					<TextBlock Text="Thiết lập tính giá"
+                               FontSize="20"
+                               FontWeight="Bold"
+                               Foreground="#172033"/>
+
+					<TextBlock Text="Cấu hình thông số tính giá bao bì"
+                               Margin="0,5,0,0"
+                               FontSize="12"
+                               Foreground="#7A8499"/>
+
+				</StackPanel>
+
+
+				<TextBlock Text="CƠ BẢN"
+                           FontSize="11"
+                           FontWeight="Bold"
+                           Foreground="#1976D2"
+                           Margin="10,10,10,5"/>
+
+				<Button Content="0. Thông báo"
+                        Style="{StaticResource MenuButtonStyle}"/>
+
+				<Button Content="1. Độ khó sản phẩm"
+                        Style="{StaticResource MenuButtonStyle}"/>
+
+				<Button Content="2. Cài đặt tái bản"
+                        Style="{StaticResource MenuButtonStyle}"/>
+
+
+				<TextBlock Text="VẬT LIỆU"
+                           FontSize="11"
+                           FontWeight="Bold"
+                           Foreground="#1976D2"
+                           Margin="10,15,10,5"/>
+
+				<Button Content="3. Định mức bù hao"
+                        Style="{StaticResource MenuButtonStyle}"/>
+
+				<Button Content="4. Giá giấy"
+                        Style="{StaticResource MenuButtonStyle}"/>
+
+				<Button Content="5. Khổ giấy - máy in - kẽm"
+                        Style="{StaticResource MenuButtonStyle}"/>
+
+				<Button Content="6. Nhíp - Tay kê - Tràn màu"
+                        Style="{StaticResource MenuButtonStyle}"/>
+
+				<Button Content="7. Tai dán - Khóa gài"
+                        Style="{StaticResource MenuButtonStyle}"/>
+
+
+				<TextBlock Text="SẢN PHẨM &amp; IN"
+                           FontSize="11"
+                           FontWeight="Bold"
+                           Foreground="#1976D2"
+                           Margin="10,15,10,5"/>
+
+				<Button Content="8. Chủng loại sản phẩm (BOM)"
+                        Style="{StaticResource MenuButtonStyle}"/>
+
+				<Button Content="9. Lô in - Lô kẽm"
+                        Style="{StaticResource MenuButtonStyle}"/>
+
+				<Button Content="10. Quy ước kiểu in"
+                        Style="{StaticResource MenuButtonStyle}"/>
+
+				<Button Content="11. Đơn giá in và kẽm"
+                        Style="{StaticResource MenuButtonStyle}"/>
+
+
+				<TextBlock Text="GIA CÔNG"
+                           FontSize="11"
+                           FontWeight="Bold"
+                           Foreground="#1976D2"
+                           Margin="10,15,10,5"/>
+
+				<Button Content="12. Giá gia công"
+                        Style="{StaticResource MenuButtonStyle}"/>
+
+				<Button Content="13. Giá khuôn"
+                        Style="{StaticResource MenuButtonStyle}"/>
+
+				<Button Content="14. Đơn vị tính"
+                        Style="{StaticResource MenuButtonStyle}"/>
+
+				<Button Content="15. Giá Support"
+                        Style="{StaticResource MenuButtonStyle}"/>
+
+				<Button Content="16. Giá keo dán"
+                        Style="{StaticResource MenuButtonStyle}"/>
+
+				<Button Content="17. Quy đổi màng"
+                        Style="{StaticResource MenuButtonStyle}"/>
+
+			</StackPanel>
+
+		</ScrollViewer>
+
+	</Border>
+
+</UserControl>

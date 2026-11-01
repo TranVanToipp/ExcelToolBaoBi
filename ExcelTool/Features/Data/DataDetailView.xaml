@@ -1,0 +1,394 @@
+﻿<UserControl x:Class="ExcelTool.Features.Data.DataDetailView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Background="Transparent">
+
+    <Grid Background="#F5F7FB">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+
+        <!-- ===================================================== -->
+        <!-- HEADER -->
+        <!-- ===================================================== -->
+
+        <Grid Grid.Row="0"
+              Margin="25,25,25,20">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+
+            <StackPanel>
+
+                <TextBlock Text="Chi tiết dữ liệu"
+                           FontSize="28"
+                           FontWeight="Bold"
+                           Foreground="#172033"/>
+
+                <TextBlock Text="Thông tin chi tiết sản phẩm"
+                           Margin="0,5,0,0"
+                           FontSize="14"
+                           Foreground="#7A8499"/>
+
+            </StackPanel>
+
+
+            <Button Grid.Column="1"
+                    Content="Quay lại"
+                    Width="100"
+                    Height="38"
+                    VerticalAlignment="Center"
+                    Click="BackButton_Click"/>
+
+        </Grid>
+
+
+        <!-- ===================================================== -->
+        <!-- CONTENT -->
+        <!-- ===================================================== -->
+
+        <ScrollViewer Grid.Row="1"
+                      VerticalScrollBarVisibility="Auto"
+                      HorizontalScrollBarVisibility="Disabled">
+
+            <StackPanel Margin="25,0,25,25">
+
+
+                <!-- ================================================= -->
+                <!-- THÔNG TIN CHUNG -->
+                <!-- ================================================= -->
+
+                <GroupBox Header="1. Thông tin chung"
+                          Padding="18"
+                          Margin="0,0,0,15">
+
+                    <Grid>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="180"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="180"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+
+
+                        <!-- ========================================= -->
+                        <!-- MÃ SẢN PHẨM -->
+                        <!-- ========================================= -->
+
+                        <TextBlock Grid.Row="0"
+                                   Grid.Column="0"
+                                   Text="Mã sản phẩm"
+                                   FontWeight="SemiBold"
+                                   VerticalAlignment="Center"
+                                   Margin="0,0,10,15"/>
+
+                        <TextBlock x:Name="ProductCodeTextBlock"
+                                   Grid.Row="0"
+                                   Grid.Column="1"
+                                   VerticalAlignment="Center"
+                                   Margin="0,0,20,15"
+                                   Foreground="#1976D2"
+                                   FontWeight="SemiBold"/>
+
+
+                        <!-- ========================================= -->
+                        <!-- NGÀY LẬP -->
+                        <!-- ========================================= -->
+
+                        <TextBlock Grid.Row="0"
+                                   Grid.Column="2"
+                                   Text="Ngày lập"
+                                   FontWeight="SemiBold"
+                                   VerticalAlignment="Center"
+                                   Margin="0,0,10,15"/>
+
+                        <TextBlock x:Name="CreatedDateTextBlock"
+                                   Grid.Row="0"
+                                   Grid.Column="3"
+                                   VerticalAlignment="Center"
+                                   Margin="0,0,0,15"
+                                   Foreground="#253044"/>
+
+
+                        <!-- ========================================= -->
+                        <!-- KHÁCH HÀNG -->
+                        <!-- ========================================= -->
+
+                        <TextBlock Grid.Row="1"
+                                   Grid.Column="0"
+                                   Text="Khách hàng"
+                                   FontWeight="SemiBold"
+                                   VerticalAlignment="Center"
+                                   Margin="0,0,10,15"/>
+
+                        <TextBlock x:Name="CustomerTextBlock"
+                                   Grid.Row="1"
+                                   Grid.Column="1"
+                                   VerticalAlignment="Center"
+                                   Margin="0,0,20,15"
+                                   Foreground="#253044"
+                                   TextWrapping="Wrap"/>
+
+
+                        <!-- ========================================= -->
+                        <!-- TÊN SẢN PHẨM -->
+                        <!-- ========================================= -->
+
+                        <TextBlock Grid.Row="1"
+                                   Grid.Column="2"
+                                   Text="Tên sản phẩm"
+                                   FontWeight="SemiBold"
+                                   VerticalAlignment="Center"
+                                   Margin="0,0,10,15"/>
+
+                        <TextBlock x:Name="ProductNameTextBlock"
+                                   Grid.Row="1"
+                                   Grid.Column="3"
+                                   VerticalAlignment="Center"
+                                   Margin="0,0,0,15"
+                                   Foreground="#253044"
+                                   FontWeight="SemiBold"
+                                   TextWrapping="Wrap"/>
+
+
+                        <!-- ========================================= -->
+                        <!-- NHÓM SẢN PHẨM -->
+                        <!-- ========================================= -->
+
+                        <TextBlock Grid.Row="2"
+                                   Grid.Column="0"
+                                   Text="Nhóm sản phẩm"
+                                   FontWeight="SemiBold"
+                                   VerticalAlignment="Center"
+                                   Margin="0,0,10,15"/>
+
+                        <TextBlock x:Name="ProductTypeTextBlock"
+                                   Grid.Row="2"
+                                   Grid.Column="1"
+                                   VerticalAlignment="Center"
+                                   Margin="0,0,20,15"
+                                   Foreground="#253044"/>
+
+
+                        <!-- ========================================= -->
+                        <!-- TÁI BẢN -->
+                        <!-- ========================================= -->
+
+                        <TextBlock Grid.Row="2"
+                                   Grid.Column="2"
+                                   Text="Kiểm soát tái bản"
+                                   FontWeight="SemiBold"
+                                   VerticalAlignment="Center"
+                                   Margin="0,0,10,15"/>
+
+                        <TextBlock x:Name="ReprintTypeTextBlock"
+                                   Grid.Row="2"
+                                   Grid.Column="3"
+                                   VerticalAlignment="Center"
+                                   Margin="0,0,0,15"
+                                   Foreground="#253044"/>
+
+
+                        <!-- ========================================= -->
+                        <!-- QUY CÁCH -->
+                        <!-- ========================================= -->
+
+                        <TextBlock Grid.Row="3"
+                                   Grid.Column="0"
+                                   Text="Quy cách"
+                                   FontWeight="SemiBold"
+                                   VerticalAlignment="Top"
+                                   Margin="0,5,10,15"/>
+
+                        <TextBlock x:Name="SpecificationTextBlock"
+                                   Grid.Row="3"
+                                   Grid.Column="1"
+                                   Grid.ColumnSpan="3"
+                                   VerticalAlignment="Top"
+                                   Margin="0,5,0,15"
+                                   Foreground="#253044"
+                                   TextWrapping="Wrap"/>
+
+
+                        <!-- ========================================= -->
+                        <!-- KHỔ TRẢI -->
+                        <!-- ========================================= -->
+
+                        <TextBlock Grid.Row="4"
+                                   Grid.Column="0"
+                                   Text="Khổ trải"
+                                   FontWeight="SemiBold"
+                                   VerticalAlignment="Center"
+                                   Margin="0,0,10,15"/>
+
+                        <TextBlock x:Name="SpreadSizeTextBlock"
+                                   Grid.Row="4"
+                                   Grid.Column="1"
+                                   VerticalAlignment="Center"
+                                   Margin="0,0,20,15"
+                                   Foreground="#253044"/>
+
+
+                        <!-- ========================================= -->
+                        <!-- SỐ LƯỢNG -->
+                        <!-- ========================================= -->
+
+                        <TextBlock Grid.Row="4"
+                                   Grid.Column="2"
+                                   Text="Số lượng"
+                                   FontWeight="SemiBold"
+                                   VerticalAlignment="Center"
+                                   Margin="0,0,10,15"/>
+
+                        <TextBlock x:Name="QuantityTextBlock"
+                                   Grid.Row="4"
+                                   Grid.Column="3"
+                                   VerticalAlignment="Center"
+                                   Margin="0,0,0,15"
+                                   Foreground="#253044"/>
+
+
+                        <!-- ========================================= -->
+                        <!-- ĐỘ KHÓ -->
+                        <!-- ========================================= -->
+
+                        <TextBlock Grid.Row="5"
+                                   Grid.Column="0"
+                                   Text="Độ khó sản phẩm"
+                                   FontWeight="SemiBold"
+                                   VerticalAlignment="Center"
+                                   Margin="0,0,10,15"/>
+
+                        <TextBlock x:Name="DifficultyTextBlock"
+                                   Grid.Row="5"
+                                   Grid.Column="1"
+                                   VerticalAlignment="Center"
+                                   Margin="0,0,20,15"
+                                   Foreground="#253044"/>
+
+
+                        <!-- ========================================= -->
+                        <!-- HẠN BÁO GIÁ -->
+                        <!-- ========================================= -->
+
+                        <TextBlock Grid.Row="5"
+                                   Grid.Column="2"
+                                   Text="Hạn báo giá"
+                                   FontWeight="SemiBold"
+                                   VerticalAlignment="Center"
+                                   Margin="0,0,10,15"/>
+
+                        <TextBlock x:Name="QuotationDeadlineTextBlock"
+                                   Grid.Row="5"
+                                   Grid.Column="3"
+                                   VerticalAlignment="Center"
+                                   Margin="0,0,0,15"
+                                   Foreground="#253044"/>
+
+
+                        <!-- ========================================= -->
+                        <!-- GHI CHÚ -->
+                        <!-- ========================================= -->
+
+                        <TextBlock Grid.Row="6"
+                                   Grid.Column="0"
+                                   Text="Ghi chú"
+                                   FontWeight="SemiBold"
+                                   VerticalAlignment="Top"
+                                   Margin="0,5,10,0"/>
+
+                        <TextBlock x:Name="NoteTextBlock"
+                                   Grid.Row="6"
+                                   Grid.Column="1"
+                                   Grid.ColumnSpan="3"
+                                   VerticalAlignment="Top"
+                                   Foreground="#253044"
+                                   TextWrapping="Wrap"/>
+
+                    </Grid>
+
+                </GroupBox>
+
+
+                <!-- ================================================= -->
+                <!-- GIẤY & IN -->
+                <!-- ================================================= -->
+
+                <GroupBox Header="2. Giấy &amp; In"
+                          Padding="18"
+                          Margin="0,0,0,15">
+
+                    <TextBlock Text="Chưa xử lý ở bước hiện tại."
+                               FontStyle="Italic"
+                               Foreground="#7A8499"/>
+
+                </GroupBox>
+
+
+                <!-- ================================================= -->
+                <!-- SAU IN -->
+                <!-- ================================================= -->
+
+                <GroupBox Header="3. Sau in"
+                          Padding="18"
+                          Margin="0,0,0,15">
+
+                    <TextBlock Text="Chưa xử lý ở bước hiện tại."
+                               FontStyle="Italic"
+                               Foreground="#7A8499"/>
+
+                </GroupBox>
+
+
+                <!-- ================================================= -->
+                <!-- THÀNH PHẨM -->
+                <!-- ================================================= -->
+
+                <GroupBox Header="4. Thành phẩm"
+                          Padding="18"
+                          Margin="0,0,0,15">
+
+                    <TextBlock Text="Chưa xử lý ở bước hiện tại."
+                               FontStyle="Italic"
+                               Foreground="#7A8499"/>
+
+                </GroupBox>
+
+
+                <!-- ================================================= -->
+                <!-- TỔNG HỢP -->
+                <!-- ================================================= -->
+
+                <GroupBox Header="5. Tổng hợp giá thành"
+                          Padding="18">
+
+                    <TextBlock Text="Chưa xử lý ở bước tính giá."
+                               FontStyle="Italic"
+                               Foreground="#7A8499"/>
+
+                </GroupBox>
+
+            </StackPanel>
+
+        </ScrollViewer>
+
+    </Grid>
+
+</UserControl>

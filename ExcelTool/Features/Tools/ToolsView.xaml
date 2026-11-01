@@ -1,0 +1,485 @@
+﻿<UserControl x:Class="ExcelTool.Features.Tool.ToolView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d"
+             d:DesignHeight="650"
+             d:DesignWidth="1050">
+
+    <Grid Background="#F5F7FB">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+
+        <!-- ========================================== -->
+        <!-- HEADER -->
+        <!-- ========================================== -->
+
+        <StackPanel Grid.Row="0"
+                    Margin="25,25,25,20">
+
+            <TextBlock Text="Công cụ"
+                       FontSize="28"
+                       FontWeight="Bold"
+                       Foreground="#172033"/>
+
+            <TextBlock Text="Các công cụ hỗ trợ quản lý và xử lý dữ liệu"
+                       Margin="0,5,0,0"
+                       FontSize="14"
+                       Foreground="#7A8499"/>
+
+        </StackPanel>
+
+
+        <!-- ========================================== -->
+        <!-- TOOLS -->
+        <!-- ========================================== -->
+
+        <ScrollViewer Grid.Row="1"
+                      VerticalScrollBarVisibility="Auto">
+
+            <WrapPanel Margin="25,0,25,25">
+
+
+                <!-- ================================= -->
+                <!-- NHẬP EXCEL -->
+                <!-- ================================= -->
+
+                <Border Width="320"
+                        Height="170"
+                        Background="White"
+                        BorderBrush="#E1E6EF"
+                        BorderThickness="1"
+                        CornerRadius="10"
+                        Margin="0,0,15,15"
+                        Padding="20">
+
+                    <Grid>
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+
+
+                        <StackPanel Orientation="Horizontal">
+
+                            <Border Width="45"
+                                    Height="45"
+                                    Background="#E8F1FC"
+                                    CornerRadius="10">
+
+                                <TextBlock Text="X"
+                                           FontSize="20"
+                                           FontWeight="Bold"
+                                           Foreground="#1976D2"
+                                           HorizontalAlignment="Center"
+                                           VerticalAlignment="Center"/>
+
+                            </Border>
+
+                            <TextBlock Text="Nhập dữ liệu Excel"
+                                       FontSize="17"
+                                       FontWeight="Bold"
+                                       Foreground="#172033"
+                                       VerticalAlignment="Center"
+                                       Margin="12,0,0,0"/>
+
+                        </StackPanel>
+
+
+                        <TextBlock Grid.Row="1"
+                                   Text="Đọc dữ liệu từ file Excel và đưa vào hệ thống."
+                                   TextWrapping="Wrap"
+                                   Foreground="#7A8499"
+                                   Margin="0,15,0,10"/>
+
+
+                        <Button Grid.Row="2"
+                                Content="Mở công cụ"
+                                Width="110"
+                                Height="34"
+                                HorizontalAlignment="Right"
+                                Background="#EEF5FD"
+                                BorderBrush="#C7DCF5"
+                                BorderThickness="1"
+                                Foreground="#1976D2"
+                                FontWeight="SemiBold"
+                                Cursor="Hand"/>
+
+                    </Grid>
+
+                </Border>
+
+
+                <!-- ================================= -->
+                <!-- XUẤT EXCEL -->
+                <!-- ================================= -->
+
+                <Border Width="320"
+                        Height="170"
+                        Background="White"
+                        BorderBrush="#E1E6EF"
+                        BorderThickness="1"
+                        CornerRadius="10"
+                        Margin="0,0,15,15"
+                        Padding="20">
+
+                    <Grid>
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+
+
+                        <StackPanel Orientation="Horizontal">
+
+                            <Border Width="45"
+                                    Height="45"
+                                    Background="#E8F5E9"
+                                    CornerRadius="10">
+
+                                <TextBlock Text="↑"
+                                           FontSize="22"
+                                           FontWeight="Bold"
+                                           Foreground="#2E7D32"
+                                           HorizontalAlignment="Center"
+                                           VerticalAlignment="Center"/>
+
+                            </Border>
+
+                            <TextBlock Text="Xuất dữ liệu Excel"
+                                       FontSize="17"
+                                       FontWeight="Bold"
+                                       Foreground="#172033"
+                                       VerticalAlignment="Center"
+                                       Margin="12,0,0,0"/>
+
+                        </StackPanel>
+
+
+                        <TextBlock Grid.Row="1"
+                                   Text="Xuất dữ liệu từ hệ thống ra file Excel."
+                                   TextWrapping="Wrap"
+                                   Foreground="#7A8499"
+                                   Margin="0,15,0,10"/>
+
+
+                        <Button Grid.Row="2"
+                                Content="Mở công cụ"
+                                Width="110"
+                                Height="34"
+                                HorizontalAlignment="Right"
+                                Background="#EEF7EF"
+                                BorderBrush="#C8E6C9"
+                                BorderThickness="1"
+                                Foreground="#2E7D32"
+                                FontWeight="SemiBold"
+                                Cursor="Hand"/>
+
+                    </Grid>
+
+                </Border>
+
+
+                <!-- ================================= -->
+                <!-- KIỂM TRA DỮ LIỆU -->
+                <!-- ================================= -->
+
+                <Border Width="320"
+                        Height="170"
+                        Background="White"
+                        BorderBrush="#E1E6EF"
+                        BorderThickness="1"
+                        CornerRadius="10"
+                        Margin="0,0,15,15"
+                        Padding="20">
+
+                    <Grid>
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+
+
+                        <StackPanel Orientation="Horizontal">
+
+                            <Border Width="45"
+                                    Height="45"
+                                    Background="#FFF4E5"
+                                    CornerRadius="10">
+
+                                <TextBlock Text="✓"
+                                           FontSize="22"
+                                           FontWeight="Bold"
+                                           Foreground="#B26A00"
+                                           HorizontalAlignment="Center"
+                                           VerticalAlignment="Center"/>
+
+                            </Border>
+
+                            <TextBlock Text="Kiểm tra dữ liệu"
+                                       FontSize="17"
+                                       FontWeight="Bold"
+                                       Foreground="#172033"
+                                       VerticalAlignment="Center"
+                                       Margin="12,0,0,0"/>
+
+                        </StackPanel>
+
+
+                        <TextBlock Grid.Row="1"
+                                   Text="Kiểm tra dữ liệu thiếu, trùng hoặc không hợp lệ."
+                                   TextWrapping="Wrap"
+                                   Foreground="#7A8499"
+                                   Margin="0,15,0,10"/>
+
+
+                        <Button Grid.Row="2"
+                                Content="Kiểm tra"
+                                Width="100"
+                                Height="34"
+                                HorizontalAlignment="Right"
+                                Background="#FFF8EC"
+                                BorderBrush="#F5D7A1"
+                                BorderThickness="1"
+                                Foreground="#B26A00"
+                                FontWeight="SemiBold"
+                                Cursor="Hand"/>
+
+                    </Grid>
+
+                </Border>
+
+
+                <!-- ================================= -->
+                <!-- ĐỒNG BỘ DỮ LIỆU -->
+                <!-- ================================= -->
+
+                <Border Width="320"
+                        Height="170"
+                        Background="White"
+                        BorderBrush="#E1E6EF"
+                        BorderThickness="1"
+                        CornerRadius="10"
+                        Margin="0,0,15,15"
+                        Padding="20">
+
+                    <Grid>
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+
+
+                        <StackPanel Orientation="Horizontal">
+
+                            <Border Width="45"
+                                    Height="45"
+                                    Background="#F3E8FF"
+                                    CornerRadius="10">
+
+                                <TextBlock Text="↻"
+                                           FontSize="23"
+                                           FontWeight="Bold"
+                                           Foreground="#7B1FA2"
+                                           HorizontalAlignment="Center"
+                                           VerticalAlignment="Center"/>
+
+                            </Border>
+
+                            <TextBlock Text="Đồng bộ dữ liệu"
+                                       FontSize="17"
+                                       FontWeight="Bold"
+                                       Foreground="#172033"
+                                       VerticalAlignment="Center"
+                                       Margin="12,0,0,0"/>
+
+                        </StackPanel>
+
+
+                        <TextBlock Grid.Row="1"
+                                   Text="Đồng bộ và cập nhật dữ liệu giữa các nguồn."
+                                   TextWrapping="Wrap"
+                                   Foreground="#7A8499"
+                                   Margin="0,15,0,10"/>
+
+
+                        <Button Grid.Row="2"
+                                Content="Đồng bộ"
+                                Width="100"
+                                Height="34"
+                                HorizontalAlignment="Right"
+                                Background="#FAF2FF"
+                                BorderBrush="#DFC4F0"
+                                BorderThickness="1"
+                                Foreground="#7B1FA2"
+                                FontWeight="SemiBold"
+                                Cursor="Hand"/>
+
+                    </Grid>
+
+                </Border>
+
+
+                <!-- ================================= -->
+                <!-- SAO LƯU -->
+                <!-- ================================= -->
+
+                <Border Width="320"
+                        Height="170"
+                        Background="White"
+                        BorderBrush="#E1E6EF"
+                        BorderThickness="1"
+                        CornerRadius="10"
+                        Margin="0,0,15,15"
+                        Padding="20">
+
+                    <Grid>
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+
+
+                        <StackPanel Orientation="Horizontal">
+
+                            <Border Width="45"
+                                    Height="45"
+                                    Background="#E8F1FC"
+                                    CornerRadius="10">
+
+                                <TextBlock Text="↓"
+                                           FontSize="22"
+                                           FontWeight="Bold"
+                                           Foreground="#1976D2"
+                                           HorizontalAlignment="Center"
+                                           VerticalAlignment="Center"/>
+
+                            </Border>
+
+                            <TextBlock Text="Sao lưu dữ liệu"
+                                       FontSize="17"
+                                       FontWeight="Bold"
+                                       Foreground="#172033"
+                                       VerticalAlignment="Center"
+                                       Margin="12,0,0,0"/>
+
+                        </StackPanel>
+
+
+                        <TextBlock Grid.Row="1"
+                                   Text="Sao lưu dữ liệu để tránh mất thông tin."
+                                   TextWrapping="Wrap"
+                                   Foreground="#7A8499"
+                                   Margin="0,15,0,10"/>
+
+
+                        <Button Grid.Row="2"
+                                Content="Sao lưu"
+                                Width="90"
+                                Height="34"
+                                HorizontalAlignment="Right"
+                                Background="#EEF5FD"
+                                BorderBrush="#C7DCF5"
+                                BorderThickness="1"
+                                Foreground="#1976D2"
+                                FontWeight="SemiBold"
+                                Cursor="Hand"/>
+
+                    </Grid>
+
+                </Border>
+
+
+                <!-- ================================= -->
+                <!-- KHÔI PHỤC -->
+                <!-- ================================= -->
+
+                <Border Width="320"
+                        Height="170"
+                        Background="White"
+                        BorderBrush="#E1E6EF"
+                        BorderThickness="1"
+                        CornerRadius="10"
+                        Margin="0,0,15,15"
+                        Padding="20">
+
+                    <Grid>
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+
+
+                        <StackPanel Orientation="Horizontal">
+
+                            <Border Width="45"
+                                    Height="45"
+                                    Background="#FFF1F0"
+                                    CornerRadius="10">
+
+                                <TextBlock Text="↶"
+                                           FontSize="23"
+                                           FontWeight="Bold"
+                                           Foreground="#D32F2F"
+                                           HorizontalAlignment="Center"
+                                           VerticalAlignment="Center"/>
+
+                            </Border>
+
+                            <TextBlock Text="Khôi phục dữ liệu"
+                                       FontSize="17"
+                                       FontWeight="Bold"
+                                       Foreground="#172033"
+                                       VerticalAlignment="Center"
+                                       Margin="12,0,0,0"/>
+
+                        </StackPanel>
+
+
+                        <TextBlock Grid.Row="1"
+                                   Text="Khôi phục dữ liệu từ bản sao lưu trước đó."
+                                   TextWrapping="Wrap"
+                                   Foreground="#7A8499"
+                                   Margin="0,15,0,10"/>
+
+
+                        <Button Grid.Row="2"
+                                Content="Khôi phục"
+                                Width="100"
+                                Height="34"
+                                HorizontalAlignment="Right"
+                                Background="#FFF5F5"
+                                BorderBrush="#F1C4C4"
+                                BorderThickness="1"
+                                Foreground="#D32F2F"
+                                FontWeight="SemiBold"
+                                Cursor="Hand"/>
+
+                    </Grid>
+
+                </Border>
+
+            </WrapPanel>
+
+        </ScrollViewer>
+
+    </Grid>
+
+</UserControl>

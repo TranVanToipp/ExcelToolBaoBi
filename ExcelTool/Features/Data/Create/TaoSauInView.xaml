@@ -1,0 +1,842 @@
+﻿<UserControl x:Class="ExcelTool.Features.Data.Create.TaoSauInView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:ExcelTool.Features.Data.Create"
+             xmlns:sauIn="clr-namespace:ExcelTool.Features.Data.Create.SauIn"
+             mc:Ignorable="d"
+             d:DesignHeight="700"
+             d:DesignWidth="1100">
+
+    <UserControl.Resources>
+
+        <!-- ========================================================= -->
+        <!-- COLORS -->
+        <!-- ========================================================= -->
+
+        <SolidColorBrush x:Key="PageBackgroundBrush"
+                         Color="#F8FAFC"/>
+
+        <SolidColorBrush x:Key="CardBackgroundBrush"
+                         Color="#FFFFFF"/>
+
+        <SolidColorBrush x:Key="BorderBrush"
+                         Color="#E2E8F0"/>
+
+        <SolidColorBrush x:Key="TextBrush"
+                         Color="#172033"/>
+
+        <SolidColorBrush x:Key="SecondaryTextBrush"
+                         Color="#64748B"/>
+
+        <SolidColorBrush x:Key="PrimaryBrush"
+                         Color="#2563EB"/>
+
+        <SolidColorBrush x:Key="PrimaryLightBrush"
+                         Color="#EFF6FF"/>
+
+        <SolidColorBrush x:Key="InputBackgroundBrush"
+                         Color="#FFFFFF"/>
+
+
+        <!-- ========================================================= -->
+        <!-- PROCESS BUTTON -->
+        <!-- ========================================================= -->
+
+        <Style x:Key="ProcessButtonStyle"
+               TargetType="Button">
+
+            <Setter Property="Height"
+                    Value="52"/>
+
+            <Setter Property="Margin"
+                    Value="0,0,0,8"/>
+
+            <Setter Property="Padding"
+                    Value="14,0"/>
+
+            <Setter Property="HorizontalContentAlignment"
+                    Value="Left"/>
+
+            <Setter Property="VerticalContentAlignment"
+                    Value="Center"/>
+
+            <Setter Property="Background"
+                    Value="White"/>
+
+            <Setter Property="Foreground"
+                    Value="#475569"/>
+
+            <Setter Property="BorderBrush"
+                    Value="{StaticResource BorderBrush}"/>
+
+            <Setter Property="BorderThickness"
+                    Value="1"/>
+
+            <Setter Property="FontSize"
+                    Value="13"/>
+
+            <Setter Property="Cursor"
+                    Value="Hand"/>
+
+        </Style>
+
+
+        <!-- ========================================================= -->
+        <!-- FIELD LABEL -->
+        <!-- ========================================================= -->
+
+        <Style x:Key="FieldLabelStyle"
+               TargetType="TextBlock">
+
+            <Setter Property="FontSize"
+                    Value="12"/>
+
+            <Setter Property="FontWeight"
+                    Value="SemiBold"/>
+
+            <Setter Property="Foreground"
+                    Value="{StaticResource TextBrush}"/>
+
+            <Setter Property="Margin"
+                    Value="0,0,0,6"/>
+
+        </Style>
+
+
+        <!-- ========================================================= -->
+        <!-- TEXTBOX -->
+        <!-- ========================================================= -->
+
+        <Style x:Key="InputTextBoxStyle"
+               TargetType="TextBox">
+
+            <Setter Property="Height"
+                    Value="36"/>
+
+            <Setter Property="Padding"
+                    Value="10,0"/>
+
+            <Setter Property="VerticalContentAlignment"
+                    Value="Center"/>
+
+            <Setter Property="FontSize"
+                    Value="13"/>
+
+            <Setter Property="Background"
+                    Value="{StaticResource InputBackgroundBrush}"/>
+
+            <Setter Property="Foreground"
+                    Value="{StaticResource TextBrush}"/>
+
+            <Setter Property="BorderBrush"
+                    Value="{StaticResource BorderBrush}"/>
+
+            <Setter Property="BorderThickness"
+                    Value="1"/>
+
+        </Style>
+
+
+        <!-- ========================================================= -->
+        <!-- COMBOBOX -->
+        <!-- ========================================================= -->
+
+        <Style x:Key="InputComboBoxStyle"
+               TargetType="ComboBox">
+
+            <Setter Property="Height"
+                    Value="36"/>
+
+            <Setter Property="VerticalContentAlignment"
+                    Value="Center"/>
+
+            <Setter Property="FontSize"
+                    Value="13"/>
+
+            <Setter Property="Background"
+                    Value="{StaticResource InputBackgroundBrush}"/>
+
+            <Setter Property="Foreground"
+                    Value="{StaticResource TextBrush}"/>
+
+            <Setter Property="BorderBrush"
+                    Value="{StaticResource BorderBrush}"/>
+
+            <Setter Property="BorderThickness"
+                    Value="1"/>
+
+        </Style>
+
+
+        <!-- ========================================================= -->
+        <!-- CARD -->
+        <!-- ========================================================= -->
+
+        <Style x:Key="SectionCardStyle"
+               TargetType="Border">
+
+            <Setter Property="Background"
+                    Value="{StaticResource CardBackgroundBrush}"/>
+
+            <Setter Property="BorderBrush"
+                    Value="{StaticResource BorderBrush}"/>
+
+            <Setter Property="BorderThickness"
+                    Value="1"/>
+
+            <Setter Property="CornerRadius"
+                    Value="10"/>
+
+            <Setter Property="Padding"
+                    Value="18"/>
+
+            <Setter Property="Margin"
+                    Value="0,0,0,16"/>
+
+        </Style>
+
+
+        <!-- ========================================================= -->
+        <!-- SMALL INFO -->
+        <!-- ========================================================= -->
+
+        <Style x:Key="InfoTextStyle"
+               TargetType="TextBlock">
+
+            <Setter Property="FontSize"
+                    Value="11"/>
+
+            <Setter Property="Foreground"
+                    Value="{StaticResource SecondaryTextBrush}"/>
+
+        </Style>
+
+    </UserControl.Resources>
+
+
+    <!-- ============================================================= -->
+    <!-- ROOT -->
+    <!-- ============================================================= -->
+
+    <Grid Background="{StaticResource PageBackgroundBrush}">
+
+        <Grid.RowDefinitions>
+
+            <RowDefinition Height="Auto"/>
+
+            <RowDefinition Height="*"/>
+
+        </Grid.RowDefinitions>
+
+
+        <!-- ========================================================= -->
+        <!-- HEADER -->
+        <!-- ========================================================= -->
+
+        <Grid Grid.Row="0"
+              Margin="0,0,0,18">
+
+            <Grid.ColumnDefinitions>
+
+                <ColumnDefinition Width="*"/>
+
+                <ColumnDefinition Width="Auto"/>
+
+            </Grid.ColumnDefinitions>
+
+
+            <StackPanel Grid.Column="0">
+
+                <TextBlock Text="③ Sau in"
+                           FontSize="21"
+                           FontWeight="Bold"
+                           Foreground="{StaticResource TextBrush}"/>
+
+                <TextBlock Text="Khai báo các công đoạn gia công sau khi in."
+                           Margin="0,5,0,0"
+                           FontSize="12"
+                           Foreground="{StaticResource SecondaryTextBrush}"/>
+
+            </StackPanel>
+
+
+            <Border Grid.Column="1"
+                    Background="{StaticResource PrimaryLightBrush}"
+                    BorderBrush="#BFDBFE"
+                    BorderThickness="1"
+                    CornerRadius="8"
+                    Padding="12,7">
+
+                <StackPanel Orientation="Horizontal">
+
+                    <TextBlock Text="BƯỚC "
+                               FontSize="11"
+                               FontWeight="SemiBold"
+                               Foreground="{StaticResource SecondaryTextBrush}"/>
+
+                    <TextBlock Text="3 / 5"
+                               FontSize="12"
+                               FontWeight="Bold"
+                               Foreground="{StaticResource PrimaryBrush}"/>
+
+                </StackPanel>
+
+            </Border>
+
+        </Grid>
+
+
+        <!-- ========================================================= -->
+        <!-- MAIN CONTENT -->
+        <!-- ========================================================= -->
+
+        <Grid Grid.Row="1">
+
+            <Grid.ColumnDefinitions>
+
+                <ColumnDefinition Width="230"/>
+
+                <ColumnDefinition Width="18"/>
+
+                <ColumnDefinition Width="*"/>
+
+            </Grid.ColumnDefinitions>
+
+
+            <!-- ===================================================== -->
+            <!-- LEFT MENU -->
+            <!-- ===================================================== -->
+
+            <Border Grid.Column="0"
+                    Background="{StaticResource CardBackgroundBrush}"
+                    BorderBrush="{StaticResource BorderBrush}"
+                    BorderThickness="1"
+                    CornerRadius="10"
+                    Padding="12">
+
+                <StackPanel>
+
+                    <TextBlock Text="CÔNG ĐOẠN SAU IN"
+                               FontSize="11"
+                               FontWeight="Bold"
+                               Foreground="{StaticResource SecondaryTextBrush}"
+                               Margin="4,4,4,14"/>
+
+
+                    <!-- TRÁNG PHỦ & CÁN MÀNG -->
+
+                    <Button x:Name="CoatingButton"
+                            Content="Tráng phủ &amp; cán màng"
+                            Style="{StaticResource ProcessButtonStyle}"
+                            Click="CoatingButton_Click"/>
+
+
+                    <!-- ÉP NHŨ & CÁN VÂN -->
+
+                    <Button x:Name="FoilEmbossButton"
+                            Content="Ép nhũ &amp; cán vân"
+                            Style="{StaticResource ProcessButtonStyle}"
+                            Click="FoilEmbossButton_Click"/>
+
+
+                    <!-- BỒI -->
+
+                    <Button x:Name="BoiButton"
+                            Content="Bồi"
+                            Style="{StaticResource ProcessButtonStyle}"
+                            Click="BoiButton_Click"/>
+
+
+                    <!-- RUỘT SÁCH -->
+
+                    <Button x:Name="BookButton"
+                            Content="Ruột sách"
+                            Style="{StaticResource ProcessButtonStyle}"
+                            Click="BookButton_Click"/>
+
+
+                    <!-- NOTE -->
+
+                    <Border Background="#F8FAFC"
+                            BorderBrush="{StaticResource BorderBrush}"
+                            BorderThickness="1"
+                            CornerRadius="8"
+                            Padding="12"
+                            Margin="0,10,0,0">
+
+                        <TextBlock Text="Chọn nhóm công đoạn để nhập thông tin chi tiết."
+                                   TextWrapping="Wrap"
+                                   FontSize="11"
+                                   Foreground="{StaticResource SecondaryTextBrush}"/>
+
+                    </Border>
+
+                </StackPanel>
+
+            </Border>
+
+
+            <!-- ===================================================== -->
+            <!-- RIGHT CONTENT -->
+            <!-- ===================================================== -->
+
+            <Border Grid.Column="2"
+                    Background="{StaticResource CardBackgroundBrush}"
+                    BorderBrush="{StaticResource BorderBrush}"
+                    BorderThickness="1"
+                    CornerRadius="10"
+                    Padding="22">
+
+                <ScrollViewer VerticalScrollBarVisibility="Auto"
+                              HorizontalScrollBarVisibility="Disabled">
+
+                    <Grid>
+
+
+                        <!-- ================================================= -->
+                        <!-- EMPTY -->
+                        <!-- ================================================= -->
+
+                        <StackPanel x:Name="EmptyPanel">
+
+                            <TextBlock Text="Chưa chọn công đoạn"
+                                       FontSize="19"
+                                       FontWeight="Bold"
+                                       Foreground="{StaticResource TextBrush}"/>
+
+                            <TextBlock Text="Chọn một nhóm công đoạn bên trái để bắt đầu."
+                                       Margin="0,8,0,0"
+                                       FontSize="13"
+                                       Foreground="{StaticResource SecondaryTextBrush}"/>
+
+                        </StackPanel>
+
+
+                        <!-- ================================================= -->
+                        <!-- 1. TRÁNG PHỦ & CÁN MÀNG -->
+                        <!-- ================================================= -->
+
+                        <local:TrangPhu_CanMang x:Name="TrangPhuCanMangPanel"
+                        Visibility="Collapsed"/>
+
+
+                        <!-- ================================================= -->
+                        <!-- 2. ÉP NHŨ & CÁN VÂN -->
+                        <!-- ================================================= -->
+
+                        <sauIn:EpNhu_CanVan x:Name="EpNhuCanVanPanel"
+                                Visibility="Collapsed"/>
+
+
+                        <!-- ================================================= -->
+                        <!-- 3. BỒI -->
+                        <!-- ================================================= -->
+
+                        <StackPanel x:Name="BoiPanel"
+                                    Visibility="Collapsed">
+
+                            <TextBlock Text="Bồi"
+                                       FontSize="19"
+                                       FontWeight="Bold"
+                                       Foreground="{StaticResource TextBrush}"/>
+
+                            <TextBlock Text="Khai báo vật liệu sử dụng để bồi."
+                                       Margin="0,6,0,20"
+                                       FontSize="12"
+                                       Foreground="{StaticResource SecondaryTextBrush}"/>
+
+
+                            <Border Style="{StaticResource SectionCardStyle}">
+
+                                <StackPanel>
+
+                                    <TextBlock Text="Vật liệu bồi"
+                                               FontSize="15"
+                                               FontWeight="Bold"
+                                               Foreground="{StaticResource TextBrush}"
+                                               Margin="0,0,0,16"/>
+
+
+                                    <!-- HEADER -->
+
+                                    <Grid Margin="0,0,0,8">
+
+                                        <Grid.ColumnDefinitions>
+
+                                            <ColumnDefinition Width="70"/>
+
+                                            <ColumnDefinition Width="*"/>
+
+                                            <ColumnDefinition Width="130"/>
+
+                                            <ColumnDefinition Width="150"/>
+
+                                            <ColumnDefinition Width="120"/>
+
+                                        </Grid.ColumnDefinitions>
+
+
+                                        <TextBlock Grid.Column="0"
+                                                   Text="STT"
+                                                   Style="{StaticResource InfoTextStyle}"/>
+
+                                        <TextBlock Grid.Column="1"
+                                                   Text="Vật liệu"
+                                                   Style="{StaticResource InfoTextStyle}"/>
+
+                                        <TextBlock Grid.Column="2"
+                                                   Text="Số lượng"
+                                                   Style="{StaticResource InfoTextStyle}"/>
+
+                                        <TextBlock Grid.Column="3"
+                                                   Text="Quy cách"
+                                                   Style="{StaticResource InfoTextStyle}"/>
+
+                                        <TextBlock Grid.Column="4"
+                                                   Text="Đơn giá"
+                                                   Style="{StaticResource InfoTextStyle}"/>
+
+                                    </Grid>
+
+
+                                    <DataGrid x:Name="BoiMaterialDataGrid"
+                                              AutoGenerateColumns="False"
+                                              CanUserAddRows="False"
+                                              HeadersVisibility="None"
+                                              GridLinesVisibility="Horizontal"
+                                              MinHeight="180"
+                                              BorderBrush="{StaticResource BorderBrush}"
+                                              BorderThickness="1"
+                                              Background="White">
+
+                                        <DataGrid.Columns>
+
+                                            <DataGridTextColumn Header="STT"
+                                                                Binding="{Binding Index}"
+                                                                Width="70"/>
+
+                                            <DataGridTextColumn Header="Vật liệu"
+                                                                Binding="{Binding Material}"
+                                                                Width="*"/>
+
+                                            <DataGridTextColumn Header="Số lượng"
+                                                                Binding="{Binding Quantity}"
+                                                                Width="130"/>
+
+                                            <DataGridTextColumn Header="Quy cách"
+                                                                Binding="{Binding Specification}"
+                                                                Width="150"/>
+
+                                            <DataGridTextColumn Header="Đơn giá"
+                                                                Binding="{Binding UnitPrice}"
+                                                                Width="120"/>
+
+                                        </DataGrid.Columns>
+
+                                    </DataGrid>
+
+
+                                    <Button Content="+  Thêm vật liệu"
+                                            Width="140"
+                                            Height="34"
+                                            HorizontalAlignment="Left"
+                                            Margin="0,14,0,0"
+                                            Cursor="Hand"/>
+
+                                </StackPanel>
+
+                            </Border>
+
+                        </StackPanel>
+
+
+                        <!-- ================================================= -->
+                        <!-- 4. RUỘT SÁCH -->
+                        <!-- ================================================= -->
+
+                        <StackPanel x:Name="BookPanel"
+                                    Visibility="Collapsed">
+
+                            <TextBlock Text="Ruột sách"
+                                       FontSize="19"
+                                       FontWeight="Bold"
+                                       Foreground="{StaticResource TextBrush}"/>
+
+                            <TextBlock Text="Khai báo thông tin gia công ruột sách."
+                                       Margin="0,6,0,20"
+                                       FontSize="12"
+                                       Foreground="{StaticResource SecondaryTextBrush}"/>
+
+
+                            <!-- THÔNG TIN CƠ BẢN -->
+
+                            <Border Style="{StaticResource SectionCardStyle}">
+
+                                <StackPanel>
+
+                                    <TextBlock Text="Thông tin ruột sách"
+                                               FontSize="15"
+                                               FontWeight="Bold"
+                                               Foreground="{StaticResource TextBrush}"
+                                               Margin="0,0,0,16"/>
+
+
+                                    <Grid>
+
+                                        <Grid.ColumnDefinitions>
+
+                                            <ColumnDefinition Width="*"/>
+
+                                            <ColumnDefinition Width="18"/>
+
+                                            <ColumnDefinition Width="*"/>
+
+                                        </Grid.ColumnDefinitions>
+
+
+                                        <StackPanel Grid.Column="0">
+
+                                            <TextBlock Text="Số trang"
+                                                       Style="{StaticResource FieldLabelStyle}"/>
+
+                                            <TextBox x:Name="BookPageCountTextBox"
+                                                     Style="{StaticResource InputTextBoxStyle}"/>
+
+                                        </StackPanel>
+
+
+                                        <StackPanel Grid.Column="2">
+
+                                            <TextBlock Text="Số lượng cấp"
+                                                       Style="{StaticResource FieldLabelStyle}"/>
+
+                                            <TextBox x:Name="BookQuantityTextBox"
+                                                     Style="{StaticResource InputTextBoxStyle}"/>
+
+                                        </StackPanel>
+
+                                    </Grid>
+
+
+                                    <Grid Margin="0,16,0,0">
+
+                                        <Grid.ColumnDefinitions>
+
+                                            <ColumnDefinition Width="*"/>
+
+                                            <ColumnDefinition Width="18"/>
+
+                                            <ColumnDefinition Width="*"/>
+
+                                        </Grid.ColumnDefinitions>
+
+
+                                        <StackPanel Grid.Column="0">
+
+                                            <TextBlock Text="Loại giấy"
+                                                       Style="{StaticResource FieldLabelStyle}"/>
+
+                                            <ComboBox x:Name="BookPaperTypeComboBox"
+                                                      Style="{StaticResource InputComboBoxStyle}"/>
+
+                                        </StackPanel>
+
+
+                                        <StackPanel Grid.Column="2">
+
+                                            <TextBlock Text="Khổ giấy"
+                                                       Style="{StaticResource FieldLabelStyle}"/>
+
+                                            <ComboBox x:Name="BookPaperSizeComboBox"
+                                                      Style="{StaticResource InputComboBoxStyle}"/>
+
+                                        </StackPanel>
+
+                                    </Grid>
+
+
+                                    <Grid Margin="0,16,0,0">
+
+                                        <Grid.ColumnDefinitions>
+
+                                            <ColumnDefinition Width="*"/>
+
+                                            <ColumnDefinition Width="18"/>
+
+                                            <ColumnDefinition Width="*"/>
+
+                                        </Grid.ColumnDefinitions>
+
+
+                                        <StackPanel Grid.Column="0">
+
+                                            <TextBlock Text="Khổ máy in"
+                                                       Style="{StaticResource FieldLabelStyle}"/>
+
+                                            <ComboBox x:Name="BookMachineSizeComboBox"
+                                                      Style="{StaticResource InputComboBoxStyle}"/>
+
+                                        </StackPanel>
+
+
+                                        <StackPanel Grid.Column="2">
+
+                                            <TextBlock Text="Kiểu in"
+                                                       Style="{StaticResource FieldLabelStyle}"/>
+
+                                            <ComboBox x:Name="BookPrintingTypeComboBox"
+                                                      Style="{StaticResource InputComboBoxStyle}"/>
+
+                                        </StackPanel>
+
+                                    </Grid>
+
+                                </StackPanel>
+
+                            </Border>
+
+
+                            <!-- CHI PHÍ IN RUỘT -->
+
+                            <Border Style="{StaticResource SectionCardStyle}">
+
+                                <StackPanel>
+
+                                    <TextBlock Text="Thông tin in ruột"
+                                               FontSize="15"
+                                               FontWeight="Bold"
+                                               Foreground="{StaticResource TextBrush}"
+                                               Margin="0,0,0,16"/>
+
+
+                                    <Grid Margin="0,0,0,10">
+
+                                        <Grid.ColumnDefinitions>
+
+                                            <ColumnDefinition Width="*"/>
+
+                                            <ColumnDefinition Width="18"/>
+
+                                            <ColumnDefinition Width="*"/>
+
+                                        </Grid.ColumnDefinitions>
+
+
+                                        <StackPanel Grid.Column="0">
+
+                                            <TextBlock Text="Số màu CMYK"
+                                                       Style="{StaticResource FieldLabelStyle}"/>
+
+                                            <TextBox x:Name="BookCmykColorCountTextBox"
+                                                     Style="{StaticResource InputTextBoxStyle}"/>
+
+                                        </StackPanel>
+
+
+                                        <StackPanel Grid.Column="2">
+
+                                            <TextBlock Text="Số bộ kẽm"
+                                                       Style="{StaticResource FieldLabelStyle}"/>
+
+                                            <TextBox x:Name="BookPlateCountTextBox"
+                                                     Style="{StaticResource InputTextBoxStyle}"/>
+
+                                        </StackPanel>
+
+                                    </Grid>
+
+
+                                    <Grid Margin="0,16,0,10">
+
+                                        <Grid.ColumnDefinitions>
+
+                                            <ColumnDefinition Width="*"/>
+
+                                            <ColumnDefinition Width="18"/>
+
+                                            <ColumnDefinition Width="*"/>
+
+                                        </Grid.ColumnDefinitions>
+
+
+                                        <StackPanel Grid.Column="0">
+
+                                            <TextBlock Text="Số lượt in"
+                                                       Style="{StaticResource FieldLabelStyle}"/>
+
+                                            <TextBox x:Name="BookPrintPassCountTextBox"
+                                                     Style="{StaticResource InputTextBoxStyle}"/>
+
+                                        </StackPanel>
+
+
+                                        <StackPanel Grid.Column="2">
+
+                                            <TextBlock Text="Đơn giá"
+                                                       Style="{StaticResource FieldLabelStyle}"/>
+
+                                            <TextBox x:Name="BookUnitPriceTextBox"
+                                                     Style="{StaticResource InputTextBoxStyle}"/>
+
+                                        </StackPanel>
+
+                                    </Grid>
+
+
+                                    <Grid Margin="0,16,0,0">
+
+                                        <Grid.ColumnDefinitions>
+
+                                            <ColumnDefinition Width="*"/>
+
+                                            <ColumnDefinition Width="18"/>
+
+                                            <ColumnDefinition Width="*"/>
+
+                                        </Grid.ColumnDefinitions>
+
+
+                                        <StackPanel Grid.Column="0">
+
+                                            <TextBlock Text="Chi phí kẽm"
+                                                       Style="{StaticResource FieldLabelStyle}"/>
+
+                                            <TextBox x:Name="BookPlateCostTextBox"
+                                                     Style="{StaticResource InputTextBoxStyle}"
+                                                     IsReadOnly="True"/>
+
+                                        </StackPanel>
+
+
+                                        <StackPanel Grid.Column="2">
+
+                                            <TextBlock Text="Chi phí in"
+                                                       Style="{StaticResource FieldLabelStyle}"/>
+
+                                            <TextBox x:Name="BookPrintingCostTextBox"
+                                                     Style="{StaticResource InputTextBoxStyle}"
+                                                     IsReadOnly="True"/>
+
+                                        </StackPanel>
+
+                                    </Grid>
+
+                                </StackPanel>
+
+                            </Border>
+
+                        </StackPanel>
+
+                    </Grid>
+
+                </ScrollViewer>
+
+            </Border>
+
+        </Grid>
+
+    </Grid>
+
+</UserControl>

@@ -1,0 +1,391 @@
+﻿<UserControl x:Class="ExcelTool.Features.Data.Create.CreatePaperPrintView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Background="Transparent">
+
+    <UserControl.Resources>
+
+        <!-- ========================================================= -->
+        <!-- COLORS -->
+        <!-- ========================================================= -->
+
+        <SolidColorBrush x:Key="BorderBrush"
+                         Color="#E2E8F0"/>
+
+        <SolidColorBrush x:Key="TextBrush"
+                         Color="#172033"/>
+
+        <SolidColorBrush x:Key="SecondaryTextBrush"
+                         Color="#64748B"/>
+
+
+        <!-- ========================================================= -->
+        <!-- LABEL -->
+        <!-- ========================================================= -->
+
+        <Style x:Key="FieldLabelStyle"
+               TargetType="TextBlock">
+
+            <Setter Property="Foreground"
+                    Value="{StaticResource TextBrush}"/>
+
+            <Setter Property="FontSize"
+                    Value="13"/>
+
+            <Setter Property="FontWeight"
+                    Value="SemiBold"/>
+
+            <Setter Property="VerticalAlignment"
+                    Value="Center"/>
+
+            <Setter Property="Margin"
+                    Value="0,0,0,6"/>
+
+        </Style>
+
+
+        <!-- ========================================================= -->
+        <!-- TEXTBOX -->
+        <!-- ========================================================= -->
+
+        <Style x:Key="InputTextBoxStyle"
+               TargetType="TextBox">
+
+            <Setter Property="Height"
+                    Value="36"/>
+
+            <Setter Property="Padding"
+                    Value="10,0"/>
+
+            <Setter Property="VerticalContentAlignment"
+                    Value="Center"/>
+
+            <Setter Property="BorderBrush"
+                    Value="{StaticResource BorderBrush}"/>
+
+            <Setter Property="BorderThickness"
+                    Value="1"/>
+
+            <Setter Property="Background"
+                    Value="#F8FAFC"/>
+
+            <Setter Property="FontSize"
+                    Value="13"/>
+
+            <Setter Property="IsReadOnly"
+                    Value="True"/>
+
+        </Style>
+
+
+        <!-- ========================================================= -->
+        <!-- COMBOBOX -->
+        <!-- ========================================================= -->
+
+        <Style x:Key="InputComboBoxStyle"
+               TargetType="ComboBox">
+
+            <Setter Property="Height"
+                    Value="36"/>
+
+            <Setter Property="VerticalContentAlignment"
+                    Value="Center"/>
+
+            <Setter Property="BorderBrush"
+                    Value="{StaticResource BorderBrush}"/>
+
+            <Setter Property="BorderThickness"
+                    Value="1"/>
+
+            <Setter Property="Background"
+                    Value="White"/>
+
+            <Setter Property="FontSize"
+                    Value="13"/>
+
+        </Style>
+
+    </UserControl.Resources>
+
+
+    <!-- ============================================================= -->
+    <!-- CONTENT -->
+    <!-- ============================================================= -->
+
+    <ScrollViewer VerticalScrollBarVisibility="Auto"
+                  HorizontalScrollBarVisibility="Disabled">
+
+        <Border Background="White"
+                BorderBrush="{StaticResource BorderBrush}"
+                BorderThickness="1"
+                CornerRadius="10"
+                Padding="24">
+
+            <StackPanel>
+
+
+                <!-- ================================================= -->
+                <!-- TITLE -->
+                <!-- ================================================= -->
+
+                <TextBlock Text="Giấy &amp; In"
+                           FontSize="20"
+                           FontWeight="Bold"
+                           Foreground="{StaticResource TextBrush}"/>
+
+                <TextBlock Text="Thiết lập giấy sử dụng và thông số in cho sản phẩm."
+                           Margin="0,5,0,22"
+                           FontSize="12"
+                           Foreground="{StaticResource SecondaryTextBrush}"/>
+
+
+                <!-- ================================================= -->
+                <!-- 1. GIẤY -->
+                <!-- ================================================= -->
+
+                <Border Background="#F8FAFC"
+                        BorderBrush="{StaticResource BorderBrush}"
+                        BorderThickness="1"
+                        CornerRadius="8"
+                        Padding="18"
+                        Margin="0,0,0,18">
+
+                    <StackPanel>
+
+                        <TextBlock Text="1. Thông tin giấy"
+                                   FontSize="16"
+                                   FontWeight="Bold"
+                                   Foreground="{StaticResource TextBrush}"
+                                   Margin="0,0,0,15"/>
+
+
+                        <Grid>
+
+                            <Grid.ColumnDefinitions>
+
+                                <ColumnDefinition Width="*"/>
+
+                                <ColumnDefinition Width="24"/>
+
+                                <ColumnDefinition Width="*"/>
+
+                            </Grid.ColumnDefinitions>
+
+
+                            <!-- LOẠI GIẤY -->
+
+                            <StackPanel Grid.Column="0">
+
+                                <TextBlock Text="Loại giấy"
+                                           Style="{StaticResource FieldLabelStyle}"/>
+
+                                <ComboBox x:Name="PaperComboBox"
+                                          Style="{StaticResource InputComboBoxStyle}"
+                                          SelectionChanged="PaperComboBox_SelectionChanged"/>
+
+                            </StackPanel>
+
+
+                            <!-- MÃ GIẤY -->
+
+                            <StackPanel Grid.Column="2">
+
+                                <TextBlock Text="Mã giấy"
+                                           Style="{StaticResource FieldLabelStyle}"/>
+
+                                <TextBox x:Name="PaperCodeTextBox"
+                                         Style="{StaticResource InputTextBoxStyle}"/>
+
+                            </StackPanel>
+
+                        </Grid>
+
+
+                        <Grid Margin="0,16,0,0">
+
+                            <Grid.ColumnDefinitions>
+
+                                <ColumnDefinition Width="*"/>
+
+                                <ColumnDefinition Width="24"/>
+
+                                <ColumnDefinition Width="*"/>
+
+                            </Grid.ColumnDefinitions>
+
+
+                            <!-- TÊN GIẤY -->
+
+                            <StackPanel Grid.Column="0">
+
+                                <TextBlock Text="Tên giấy"
+                                           Style="{StaticResource FieldLabelStyle}"/>
+
+                                <TextBox x:Name="PaperNameTextBox"
+                                         Style="{StaticResource InputTextBoxStyle}"/>
+
+                            </StackPanel>
+
+
+                            <!-- GIÁ -->
+
+                            <StackPanel Grid.Column="2">
+
+                                <TextBlock Text="Giá giấy (VNĐ/m²)"
+                                           Style="{StaticResource FieldLabelStyle}"/>
+
+                                <TextBox x:Name="PaperPriceTextBox"
+                                         Style="{StaticResource InputTextBoxStyle}"/>
+
+                            </StackPanel>
+
+                        </Grid>
+
+                    </StackPanel>
+
+                </Border>
+
+
+                <!-- ================================================= -->
+                <!-- 2. KHỔ IN -->
+                <!-- ================================================= -->
+
+                <Border Background="#F8FAFC"
+                        BorderBrush="{StaticResource BorderBrush}"
+                        BorderThickness="1"
+                        CornerRadius="8"
+                        Padding="18"
+                        Margin="0,0,0,18">
+
+                    <StackPanel>
+
+                        <TextBlock Text="2. Khổ giấy - máy in - kẽm"
+                                   FontSize="16"
+                                   FontWeight="Bold"
+                                   Foreground="{StaticResource TextBrush}"
+                                   Margin="0,0,0,15"/>
+
+
+                        <Grid>
+
+                            <Grid.ColumnDefinitions>
+
+                                <ColumnDefinition Width="*"/>
+
+                                <ColumnDefinition Width="24"/>
+
+                                <ColumnDefinition Width="*"/>
+
+                            </Grid.ColumnDefinitions>
+
+
+                            <!-- KHỔ TỜ IN -->
+
+                            <StackPanel Grid.Column="0">
+
+                                <TextBlock Text="Khổ tờ in"
+                                           Style="{StaticResource FieldLabelStyle}"/>
+
+                                <ComboBox x:Name="PrintSizeComboBox"
+                                          Style="{StaticResource InputComboBoxStyle}"
+                                          SelectionChanged="PrintSizeComboBox_SelectionChanged"/>
+
+                            </StackPanel>
+
+
+                            <!-- MÁY IN -->
+
+                            <StackPanel Grid.Column="2">
+
+                                <TextBlock Text="Máy in khổ"
+                                           Style="{StaticResource FieldLabelStyle}"/>
+
+                                <TextBox x:Name="PrinterSizeTextBox"
+                                         Style="{StaticResource InputTextBoxStyle}"/>
+
+                            </StackPanel>
+
+                        </Grid>
+
+
+                        <Grid Margin="0,16,0,0">
+
+                            <Grid.ColumnDefinitions>
+
+                                <ColumnDefinition Width="*"/>
+
+                                <ColumnDefinition Width="24"/>
+
+                                <ColumnDefinition Width="*"/>
+
+                            </Grid.ColumnDefinitions>
+
+
+                            <!-- KHỔ KẼM -->
+
+                            <StackPanel Grid.Column="0">
+
+                                <TextBlock Text="Khổ kẽm"
+                                           Style="{StaticResource FieldLabelStyle}"/>
+
+                                <TextBox x:Name="PlateSizeTextBox"
+                                         Style="{StaticResource InputTextBoxStyle}"/>
+
+                            </StackPanel>
+
+
+                            <!-- TRẠNG THÁI -->
+
+                            <StackPanel Grid.Column="2">
+
+                                <TextBlock Text="Trạng thái"
+                                           Style="{StaticResource FieldLabelStyle}"/>
+
+                                <TextBox x:Name="PrintInfoTextBox"
+                                         Style="{StaticResource InputTextBoxStyle}"
+                                         Text="Đã chọn cấu hình"/>
+
+                            </StackPanel>
+
+                        </Grid>
+
+                    </StackPanel>
+
+                </Border>
+
+
+                <!-- ================================================= -->
+                <!-- 3. TÓM TẮT -->
+                <!-- ================================================= -->
+
+                <Border Background="#EFF6FF"
+                        BorderBrush="#BFDBFE"
+                        BorderThickness="1"
+                        CornerRadius="8"
+                        Padding="18">
+
+                    <StackPanel>
+
+                        <TextBlock Text="Tóm tắt cấu hình"
+                                   FontSize="15"
+                                   FontWeight="Bold"
+                                   Foreground="{StaticResource TextBrush}"
+                                   Margin="0,0,0,12"/>
+
+                        <TextBlock x:Name="SummaryTextBlock"
+                                   Text="Chưa chọn cấu hình giấy và in."
+                                   FontSize="13"
+                                   Foreground="{StaticResource SecondaryTextBrush}"
+                                   TextWrapping="Wrap"/>
+
+                    </StackPanel>
+
+                </Border>
+
+            </StackPanel>
+
+        </Border>
+
+    </ScrollViewer>
+
+</UserControl>

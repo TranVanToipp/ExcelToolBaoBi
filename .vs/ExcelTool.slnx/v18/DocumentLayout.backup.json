@@ -1,0 +1,1265 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\support\\02_BaoBi\\ExcelTool\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\services\\pricing\\processpricesettingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\services\\pricing\\processpricesettingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\services\\pricing\\processpricesettingexcelimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\services\\pricing\\processpricesettingexcelimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\services\\pricing\\printpricesettingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\services\\pricing\\printpricesettingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\services\\pricing\\gluepricesettingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\services\\pricing\\gluepricesettingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\services\\pricing\\gluepricesettingexcelimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\services\\pricing\\gluepricesettingexcelimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\database\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\database\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\features\\data\\datacreateview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\features\\data\\datacreateview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\features\\data\\datacreateview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\features\\data\\datacreateview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\features\\data\\create\\createcostsummaryview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\features\\data\\create\\createcostsummaryview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\features\\data\\create\\sauin\\epnhu_canvan.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\features\\data\\create\\sauin\\epnhu_canvan.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\features\\data\\create\\sauin\\epnhu_canvan.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\features\\data\\create\\sauin\\epnhu_canvan.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\services\\pricing\\moldpricesettingexcelimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\services\\pricing\\moldpricesettingexcelimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\services\\pricing\\moldpricesettingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\services\\pricing\\moldpricesettingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\repositories\\moldpricesettingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\repositories\\moldpricesettingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\models\\pricing\\moldpricesetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\models\\pricing\\moldpricesetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\features\\data\\create\\taosauinview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\features\\data\\create\\taosauinview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\features\\data\\create\\taosauinview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\features\\data\\create\\taosauinview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\features\\data\\create\\sauin\\trangphu_canmang.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\features\\data\\create\\sauin\\trangphu_canmang.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\features\\data\\create\\sauin\\trangphu_canmang.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\features\\data\\create\\sauin\\trangphu_canmang.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\features\\data\\create\\sauin\\ruotsach.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\features\\data\\create\\sauin\\ruotsach.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\features\\data\\create\\sauin\\boi.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\features\\data\\create\\sauin\\boi.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\repositories\\processpricesettingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\repositories\\processpricesettingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\models\\pricing\\processpricesetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\models\\pricing\\processpricesetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\repositories\\gluepricesettingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\repositories\\gluepricesettingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\models\\pricing\\gluepricesetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\models\\pricing\\gluepricesetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\services\\pricing\\filmsettingexcelimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\services\\pricing\\filmsettingexcelimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\services\\pricing\\filmsettingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\services\\pricing\\filmsettingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\repositories\\filmsettingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\repositories\\filmsettingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\models\\pricing\\filmsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\models\\pricing\\filmsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\services\\pricing\\printpricesettingexcelimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\services\\pricing\\printpricesettingexcelimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\repositories\\printpricesettingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\repositories\\printpricesettingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\features\\data\\create\\createpaperprintview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\features\\data\\create\\createpaperprintview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\features\\data\\create\\createpaperprintview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\features\\data\\create\\createpaperprintview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\features\\data\\create\\createdatainfoview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\features\\data\\create\\createdatainfoview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\features\\data\\create\\createdatainfoview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\features\\data\\create\\createdatainfoview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\features\\data\\create\\createfinishedproductview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\features\\data\\create\\createfinishedproductview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\features\\data\\create\\createpostprintview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\features\\data\\create\\createpostprintview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\services\\pricing\\bomsettingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\services\\pricing\\bomsettingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\models\\pricing\\bomsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\models\\pricing\\bomsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\features\\customer\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\features\\customer\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\features\\customer\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\features\\customer\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\features\\data\\dataview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\features\\data\\dataview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\features\\data\\datadetailview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\features\\data\\datadetailview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\features\\data\\datadetailview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\features\\data\\datadetailview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\features\\data\\dataview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\features\\data\\dataview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\features\\settings\\pricing\\views\\pricingsettingsstyles.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\features\\settings\\pricing\\views\\pricingsettingsstyles.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\features\\settings\\pricing\\views\\printpricepricingview.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\features\\settings\\pricing\\views\\printpricepricingview.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\features\\settings\\pricing\\views\\processpricepricingview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\features\\settings\\pricing\\views\\processpricepricingview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\shared\\controls\\pricingdatagrid.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\shared\\controls\\pricingdatagrid.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\shared\\controls\\pricingdatagrid.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\shared\\controls\\pricingdatagrid.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\features\\settings\\pricingsettingsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\features\\settings\\pricingsettingsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\features\\settings\\pricingsettingsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\features\\settings\\pricingsettingsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\features\\settings\\pricing\\views\\filmpricingview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\features\\settings\\pricing\\views\\filmpricingview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\features\\settings\\pricing\\views\\filmpricingview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\features\\settings\\pricing\\views\\filmpricingview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\features\\settings\\pricing\\views\\gluepricepricingview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\features\\settings\\pricing\\views\\gluepricepricingview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\features\\settings\\pricing\\views\\gluepricepricingview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\features\\settings\\pricing\\views\\gluepricepricingview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\models\\pricing\\unitsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\models\\pricing\\unitsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\models\\pricing\\wastesetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\models\\pricing\\wastesetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\services\\pricing\\supportsettingexcelimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\services\\pricing\\supportsettingexcelimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\repositories\\supportsettingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\repositories\\supportsettingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\services\\pricing\\supportsettingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\services\\pricing\\supportsettingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\features\\settings\\pricing\\views\\supportpricingview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\features\\settings\\pricing\\views\\supportpricingview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\features\\settings\\pricing\\views\\supportpricingview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\features\\settings\\pricing\\views\\supportpricingview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\features\\settings\\pricing\\views\\unitpricingview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\features\\settings\\pricing\\views\\unitpricingview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\models\\pricing\\supportsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\models\\pricing\\supportsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\repositories\\unitsettingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\repositories\\unitsettingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\features\\settings\\pricing\\views\\unitpricingview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\features\\settings\\pricing\\views\\unitpricingview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\features\\settings\\pricing\\views\\moldpricepricingview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\features\\settings\\pricing\\views\\moldpricepricingview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\services\\pricing\\unitsettingexcelimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\services\\pricing\\unitsettingexcelimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\services\\pricing\\unitsettingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\services\\pricing\\unitsettingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\features\\settings\\pricing\\views\\processpricepricingview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\features\\settings\\pricing\\views\\processpricepricingview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\features\\settings\\pricing\\views\\printbatchpricingview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\features\\settings\\pricing\\views\\printbatchpricingview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\features\\settings\\pricing\\views\\moldpricepricingview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\features\\settings\\pricing\\views\\moldpricepricingview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\features\\settings\\pricing\\views\\printpricepricingview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\features\\settings\\pricing\\views\\printpricepricingview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\shared\\controls\\headercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\shared\\controls\\headercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\features\\settings\\pricing\\views\\shippingpricingview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\features\\settings\\pricing\\views\\shippingpricingview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|d:\\support\\02_baobi\\exceltool\\exceltool\\features\\settings\\pricing\\views\\printbatchpricingview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9279084C-8A53-CEA3-C5B1-5B1587136F3D}|ExcelTool\\ExcelTool.csproj|solutionrelative:exceltool\\features\\settings\\pricing\\views\\printbatchpricingview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProcessPriceSettingService.cs",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Services\\Pricing\\ProcessPriceSettingService.cs",
+              "RelativeDocumentMoniker": "ExcelTool\\Services\\Pricing\\ProcessPriceSettingService.cs",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Services\\Pricing\\ProcessPriceSettingService.cs",
+              "RelativeToolTip": "ExcelTool\\Services\\Pricing\\ProcessPriceSettingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T18:19:50.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GluePriceSettingService.cs",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Services\\Pricing\\GluePriceSettingService.cs",
+              "RelativeDocumentMoniker": "ExcelTool\\Services\\Pricing\\GluePriceSettingService.cs",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Services\\Pricing\\GluePriceSettingService.cs",
+              "RelativeToolTip": "ExcelTool\\Services\\Pricing\\GluePriceSettingService.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAYwGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T10:49:46.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PrintPriceSettingService.cs",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Services\\Pricing\\PrintPriceSettingService.cs",
+              "RelativeDocumentMoniker": "ExcelTool\\Services\\Pricing\\PrintPriceSettingService.cs",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Services\\Pricing\\PrintPriceSettingService.cs",
+              "RelativeToolTip": "ExcelTool\\Services\\Pricing\\PrintPriceSettingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T14:55:14.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProcessPriceSettingExcelImporter.cs",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Services\\Pricing\\ProcessPriceSettingExcelImporter.cs",
+              "RelativeDocumentMoniker": "ExcelTool\\Services\\Pricing\\ProcessPriceSettingExcelImporter.cs",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Services\\Pricing\\ProcessPriceSettingExcelImporter.cs",
+              "RelativeToolTip": "ExcelTool\\Services\\Pricing\\ProcessPriceSettingExcelImporter.cs",
+              "ViewState": "AgIAANoCAAAAAAAAAAAcwOICAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T15:03:08.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GluePriceSettingExcelImporter.cs",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Services\\Pricing\\GluePriceSettingExcelImporter.cs",
+              "RelativeDocumentMoniker": "ExcelTool\\Services\\Pricing\\GluePriceSettingExcelImporter.cs",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Services\\Pricing\\GluePriceSettingExcelImporter.cs",
+              "RelativeToolTip": "ExcelTool\\Services\\Pricing\\GluePriceSettingExcelImporter.cs",
+              "ViewState": "AgIAAKcCAAAAAAAAAAAswLICAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T10:49:58.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DatabaseInitializer.cs",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Database\\DatabaseInitializer.cs",
+              "RelativeDocumentMoniker": "ExcelTool\\Database\\DatabaseInitializer.cs",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Database\\DatabaseInitializer.cs",
+              "RelativeToolTip": "ExcelTool\\Database\\DatabaseInitializer.cs",
+              "ViewState": "AgIAABwEAAAAAAAAAAAswCoEAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T18:45:53.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DataCreateView.xaml.cs",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Data\\DataCreateView.xaml.cs",
+              "RelativeDocumentMoniker": "ExcelTool\\Features\\Data\\DataCreateView.xaml.cs",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Data\\DataCreateView.xaml.cs",
+              "RelativeToolTip": "ExcelTool\\Features\\Data\\DataCreateView.xaml.cs",
+              "ViewState": "AgIAAGkCAAAAAAAAAAA9wHECAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T17:41:27.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateCostSummaryView.xaml",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Data\\Create\\CreateCostSummaryView.xaml",
+              "RelativeDocumentMoniker": "ExcelTool\\Features\\Data\\Create\\CreateCostSummaryView.xaml",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Data\\Create\\CreateCostSummaryView.xaml",
+              "RelativeToolTip": "ExcelTool\\Features\\Data\\Create\\CreateCostSummaryView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-30T13:58:39.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DataCreateView.xaml",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Data\\DataCreateView.xaml",
+              "RelativeDocumentMoniker": "ExcelTool\\Features\\Data\\DataCreateView.xaml",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Data\\DataCreateView.xaml",
+              "RelativeToolTip": "ExcelTool\\Features\\Data\\DataCreateView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-30T11:52:07.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EpNhu_CanVan.xaml.cs",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Data\\Create\\SauIn\\EpNhu_CanVan.xaml.cs",
+              "RelativeDocumentMoniker": "ExcelTool\\Features\\Data\\Create\\SauIn\\EpNhu_CanVan.xaml.cs",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Data\\Create\\SauIn\\EpNhu_CanVan.xaml.cs",
+              "RelativeToolTip": "ExcelTool\\Features\\Data\\Create\\SauIn\\EpNhu_CanVan.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T18:39:52.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MoldPriceSettingRepository.cs",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Repositories\\MoldPriceSettingRepository.cs",
+              "RelativeDocumentMoniker": "ExcelTool\\Repositories\\MoldPriceSettingRepository.cs",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Repositories\\MoldPriceSettingRepository.cs",
+              "RelativeToolTip": "ExcelTool\\Repositories\\MoldPriceSettingRepository.cs",
+              "ViewState": "AgIAAB8BAAAAAAAAAAAswCgBAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T19:04:19.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MoldPriceSettingService.cs",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Services\\Pricing\\MoldPriceSettingService.cs",
+              "RelativeDocumentMoniker": "ExcelTool\\Services\\Pricing\\MoldPriceSettingService.cs",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Services\\Pricing\\MoldPriceSettingService.cs",
+              "RelativeToolTip": "ExcelTool\\Services\\Pricing\\MoldPriceSettingService.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAkwFwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T19:04:59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EpNhu_CanVan.xaml",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Data\\Create\\SauIn\\EpNhu_CanVan.xaml",
+              "RelativeDocumentMoniker": "ExcelTool\\Features\\Data\\Create\\SauIn\\EpNhu_CanVan.xaml",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Data\\Create\\SauIn\\EpNhu_CanVan.xaml",
+              "RelativeToolTip": "ExcelTool\\Features\\Data\\Create\\SauIn\\EpNhu_CanVan.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-05T17:19:11.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MoldPriceSettingExcelImporter.cs",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Services\\Pricing\\MoldPriceSettingExcelImporter.cs",
+              "RelativeDocumentMoniker": "ExcelTool\\Services\\Pricing\\MoldPriceSettingExcelImporter.cs",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Services\\Pricing\\MoldPriceSettingExcelImporter.cs",
+              "RelativeToolTip": "ExcelTool\\Services\\Pricing\\MoldPriceSettingExcelImporter.cs",
+              "ViewState": "AgIAADUCAAAAAAAAAAAuwDoCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T19:05:22.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MoldPriceSetting.cs",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Models\\Pricing\\MoldPriceSetting.cs",
+              "RelativeDocumentMoniker": "ExcelTool\\Models\\Pricing\\MoldPriceSetting.cs",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Models\\Pricing\\MoldPriceSetting.cs",
+              "RelativeToolTip": "ExcelTool\\Models\\Pricing\\MoldPriceSetting.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAwBEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T19:03:53.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TaoSauInView.xaml.cs",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Data\\Create\\TaoSauInView.xaml.cs",
+              "RelativeDocumentMoniker": "ExcelTool\\Features\\Data\\Create\\TaoSauInView.xaml.cs",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Data\\Create\\TaoSauInView.xaml.cs",
+              "RelativeToolTip": "ExcelTool\\Features\\Data\\Create\\TaoSauInView.xaml.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAA0wEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T17:46:57.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TrangPhu_CanMang.xaml.cs",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Data\\Create\\SauIn\\TrangPhu_CanMang.xaml.cs",
+              "RelativeDocumentMoniker": "ExcelTool\\Features\\Data\\Create\\SauIn\\TrangPhu_CanMang.xaml.cs",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Data\\Create\\SauIn\\TrangPhu_CanMang.xaml.cs",
+              "RelativeToolTip": "ExcelTool\\Features\\Data\\Create\\SauIn\\TrangPhu_CanMang.xaml.cs",
+              "ViewState": "AgIAADIBAAAAAAAAAAAAADoBAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T17:59:00.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TaoSauInView.xaml",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Data\\Create\\TaoSauInView.xaml",
+              "RelativeDocumentMoniker": "ExcelTool\\Features\\Data\\Create\\TaoSauInView.xaml",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Data\\Create\\TaoSauInView.xaml",
+              "RelativeToolTip": "ExcelTool\\Features\\Data\\Create\\TaoSauInView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-05T17:46:26.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TrangPhu_CanMang.xaml",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Data\\Create\\SauIn\\TrangPhu_CanMang.xaml",
+              "RelativeDocumentMoniker": "ExcelTool\\Features\\Data\\Create\\SauIn\\TrangPhu_CanMang.xaml",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Data\\Create\\SauIn\\TrangPhu_CanMang.xaml",
+              "RelativeToolTip": "ExcelTool\\Features\\Data\\Create\\SauIn\\TrangPhu_CanMang.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-05T17:18:50.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Boi.xaml",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Data\\Create\\SauIn\\Boi.xaml",
+              "RelativeDocumentMoniker": "ExcelTool\\Features\\Data\\Create\\SauIn\\Boi.xaml",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Data\\Create\\SauIn\\Boi.xaml",
+              "RelativeToolTip": "ExcelTool\\Features\\Data\\Create\\SauIn\\Boi.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-05T17:19:25.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RuotSach.xaml",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Data\\Create\\SauIn\\RuotSach.xaml",
+              "RelativeDocumentMoniker": "ExcelTool\\Features\\Data\\Create\\SauIn\\RuotSach.xaml",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Data\\Create\\SauIn\\RuotSach.xaml",
+              "RelativeToolTip": "ExcelTool\\Features\\Data\\Create\\SauIn\\RuotSach.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-05T17:19:36.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ProcessPriceSettingRepository.cs",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Repositories\\ProcessPriceSettingRepository.cs",
+              "RelativeDocumentMoniker": "ExcelTool\\Repositories\\ProcessPriceSettingRepository.cs",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Repositories\\ProcessPriceSettingRepository.cs",
+              "RelativeToolTip": "ExcelTool\\Repositories\\ProcessPriceSettingRepository.cs",
+              "ViewState": "AgIAANQBAAAAAAAAAAAswOMBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T18:19:37.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ProcessPriceSetting.cs",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Models\\Pricing\\ProcessPriceSetting.cs",
+              "RelativeDocumentMoniker": "ExcelTool\\Models\\Pricing\\ProcessPriceSetting.cs",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Models\\Pricing\\ProcessPriceSetting.cs",
+              "RelativeToolTip": "ExcelTool\\Models\\Pricing\\ProcessPriceSetting.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAmwBUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T18:19:19.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "GluePriceSettingRepository.cs",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Repositories\\GluePriceSettingRepository.cs",
+              "RelativeDocumentMoniker": "ExcelTool\\Repositories\\GluePriceSettingRepository.cs",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Repositories\\GluePriceSettingRepository.cs",
+              "RelativeToolTip": "ExcelTool\\Repositories\\GluePriceSettingRepository.cs",
+              "ViewState": "AgIAACIBAAAAAAAAAAAswC4BAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T10:48:52.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "GluePriceSetting.cs",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Models\\Pricing\\GluePriceSetting.cs",
+              "RelativeDocumentMoniker": "ExcelTool\\Models\\Pricing\\GluePriceSetting.cs",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Models\\Pricing\\GluePriceSetting.cs",
+              "RelativeToolTip": "ExcelTool\\Models\\Pricing\\GluePriceSetting.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAmwBAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T10:48:06.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "FilmSettingExcelImporter.cs",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Services\\Pricing\\FilmSettingExcelImporter.cs",
+              "RelativeDocumentMoniker": "ExcelTool\\Services\\Pricing\\FilmSettingExcelImporter.cs",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Services\\Pricing\\FilmSettingExcelImporter.cs",
+              "RelativeToolTip": "ExcelTool\\Services\\Pricing\\FilmSettingExcelImporter.cs",
+              "ViewState": "AgIAAPQBAAAAAAAAAAAkwAACAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T11:03:46.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "FilmSettingService.cs",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Services\\Pricing\\FilmSettingService.cs",
+              "RelativeDocumentMoniker": "ExcelTool\\Services\\Pricing\\FilmSettingService.cs",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Services\\Pricing\\FilmSettingService.cs",
+              "RelativeToolTip": "ExcelTool\\Services\\Pricing\\FilmSettingService.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAYwGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T11:02:56.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "FilmSettingRepository.cs",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Repositories\\FilmSettingRepository.cs",
+              "RelativeDocumentMoniker": "ExcelTool\\Repositories\\FilmSettingRepository.cs",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Repositories\\FilmSettingRepository.cs",
+              "RelativeToolTip": "ExcelTool\\Repositories\\FilmSettingRepository.cs",
+              "ViewState": "AgIAAHQBAAAAAAAAAAAswH8BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T11:02:07.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "FilmSetting.cs",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Models\\Pricing\\FilmSetting.cs",
+              "RelativeDocumentMoniker": "ExcelTool\\Models\\Pricing\\FilmSetting.cs",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Models\\Pricing\\FilmSetting.cs",
+              "RelativeToolTip": "ExcelTool\\Models\\Pricing\\FilmSetting.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA0wAwAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T11:01:42.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "PrintPriceSettingExcelImporter.cs",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Services\\Pricing\\PrintPriceSettingExcelImporter.cs",
+              "RelativeDocumentMoniker": "ExcelTool\\Services\\Pricing\\PrintPriceSettingExcelImporter.cs",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Services\\Pricing\\PrintPriceSettingExcelImporter.cs",
+              "RelativeToolTip": "ExcelTool\\Services\\Pricing\\PrintPriceSettingExcelImporter.cs",
+              "ViewState": "AgIAABoCAAAAAAAAAAAswCcCAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T14:55:15.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "PrintPriceSettingRepository.cs",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Repositories\\PrintPriceSettingRepository.cs",
+              "RelativeDocumentMoniker": "ExcelTool\\Repositories\\PrintPriceSettingRepository.cs",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Repositories\\PrintPriceSettingRepository.cs",
+              "RelativeToolTip": "ExcelTool\\Repositories\\PrintPriceSettingRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T14:55:04.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CreatePaperPrintView.xaml.cs",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Data\\Create\\CreatePaperPrintView.xaml.cs",
+              "RelativeDocumentMoniker": "ExcelTool\\Features\\Data\\Create\\CreatePaperPrintView.xaml.cs",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Data\\Create\\CreatePaperPrintView.xaml.cs",
+              "RelativeToolTip": "ExcelTool\\Features\\Data\\Create\\CreatePaperPrintView.xaml.cs",
+              "ViewState": "AgIAALMAAAAAAAAAAAAAAL0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T14:31:41.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CreatePaperPrintView.xaml",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Data\\Create\\CreatePaperPrintView.xaml",
+              "RelativeDocumentMoniker": "ExcelTool\\Features\\Data\\Create\\CreatePaperPrintView.xaml",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Data\\Create\\CreatePaperPrintView.xaml",
+              "RelativeToolTip": "ExcelTool\\Features\\Data\\Create\\CreatePaperPrintView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-30T13:57:59.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CreateDataInfoView.xaml",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Data\\Create\\CreateDataInfoView.xaml",
+              "RelativeDocumentMoniker": "ExcelTool\\Features\\Data\\Create\\CreateDataInfoView.xaml",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Data\\Create\\CreateDataInfoView.xaml",
+              "RelativeToolTip": "ExcelTool\\Features\\Data\\Create\\CreateDataInfoView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-30T13:57:42.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CreateDataInfoView.xaml.cs",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Data\\Create\\CreateDataInfoView.xaml.cs",
+              "RelativeDocumentMoniker": "ExcelTool\\Features\\Data\\Create\\CreateDataInfoView.xaml.cs",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Data\\Create\\CreateDataInfoView.xaml.cs",
+              "RelativeToolTip": "ExcelTool\\Features\\Data\\Create\\CreateDataInfoView.xaml.cs",
+              "ViewState": "AgIAAHsBAAAAAAAAAAAYwIsBAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T14:00:17.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "CreateFinishedProductView.xaml",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Data\\Create\\CreateFinishedProductView.xaml",
+              "RelativeDocumentMoniker": "ExcelTool\\Features\\Data\\Create\\CreateFinishedProductView.xaml",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Data\\Create\\CreateFinishedProductView.xaml",
+              "RelativeToolTip": "ExcelTool\\Features\\Data\\Create\\CreateFinishedProductView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-30T13:58:26.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "CreatePostPrintView.xaml",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Data\\Create\\CreatePostPrintView.xaml",
+              "RelativeDocumentMoniker": "ExcelTool\\Features\\Data\\Create\\CreatePostPrintView.xaml",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Data\\Create\\CreatePostPrintView.xaml",
+              "RelativeToolTip": "ExcelTool\\Features\\Data\\Create\\CreatePostPrintView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-30T13:58:14.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Customer\\Customer.cs",
+              "RelativeDocumentMoniker": "ExcelTool\\Features\\Customer\\Customer.cs",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Customer\\Customer.cs",
+              "RelativeToolTip": "ExcelTool\\Features\\Customer\\Customer.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAzwBAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T12:30:56.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "BomSettingService.cs",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Services\\Pricing\\BomSettingService.cs",
+              "RelativeDocumentMoniker": "ExcelTool\\Services\\Pricing\\BomSettingService.cs",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Services\\Pricing\\BomSettingService.cs",
+              "RelativeToolTip": "ExcelTool\\Services\\Pricing\\BomSettingService.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAiwGMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T12:34:38.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "BomSetting.cs",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Models\\Pricing\\BomSetting.cs",
+              "RelativeDocumentMoniker": "ExcelTool\\Models\\Pricing\\BomSetting.cs",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Models\\Pricing\\BomSetting.cs",
+              "RelativeToolTip": "ExcelTool\\Models\\Pricing\\BomSetting.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAUwEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T12:31:27.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Customer\\CustomerService.cs",
+              "RelativeDocumentMoniker": "ExcelTool\\Features\\Customer\\CustomerService.cs",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Customer\\CustomerService.cs",
+              "RelativeToolTip": "ExcelTool\\Features\\Customer\\CustomerService.cs",
+              "ViewState": "AgIAABMBAAAAAAAAAAAAAB4BAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T12:30:46.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "DataView.xaml",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Data\\DataView.xaml",
+              "RelativeDocumentMoniker": "ExcelTool\\Features\\Data\\DataView.xaml",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Data\\DataView.xaml",
+              "RelativeToolTip": "ExcelTool\\Features\\Data\\DataView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-30T12:17:49.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "ExcelTool\\Services\\ProductService.cs",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Services\\ProductService.cs",
+              "RelativeToolTip": "ExcelTool\\Services\\ProductService.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAcwJgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T12:03:40.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "DataView.xaml.cs",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Data\\DataView.xaml.cs",
+              "RelativeDocumentMoniker": "ExcelTool\\Features\\Data\\DataView.xaml.cs",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Data\\DataView.xaml.cs",
+              "RelativeToolTip": "ExcelTool\\Features\\Data\\DataView.xaml.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAcwIUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T12:17:58.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "DataDetailView.xaml.cs",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Data\\DataDetailView.xaml.cs",
+              "RelativeDocumentMoniker": "ExcelTool\\Features\\Data\\DataDetailView.xaml.cs",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Data\\DataDetailView.xaml.cs",
+              "RelativeToolTip": "ExcelTool\\Features\\Data\\DataDetailView.xaml.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAcwJkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T12:01:51.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "DataDetailView.xaml",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Data\\DataDetailView.xaml",
+              "RelativeDocumentMoniker": "ExcelTool\\Features\\Data\\DataDetailView.xaml",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Data\\DataDetailView.xaml",
+              "RelativeToolTip": "ExcelTool\\Features\\Data\\DataDetailView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-30T11:59:39.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "ExcelTool\\Repositories\\ProductRepository.cs",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "ExcelTool\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAAB0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T12:03:26.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "PricingSettingsStyles.xaml",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Settings\\Pricing\\Views\\PricingSettingsStyles.xaml",
+              "RelativeDocumentMoniker": "ExcelTool\\Features\\Settings\\Pricing\\Views\\PricingSettingsStyles.xaml",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Settings\\Pricing\\Views\\PricingSettingsStyles.xaml",
+              "RelativeToolTip": "ExcelTool\\Features\\Settings\\Pricing\\Views\\PricingSettingsStyles.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-30T11:51:54.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "PrintPricePricingView.xaml",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Settings\\Pricing\\Views\\PrintPricePricingView.xaml",
+              "RelativeDocumentMoniker": "ExcelTool\\Features\\Settings\\Pricing\\Views\\PrintPricePricingView.xaml",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Settings\\Pricing\\Views\\PrintPricePricingView.xaml",
+              "RelativeToolTip": "ExcelTool\\Features\\Settings\\Pricing\\Views\\PrintPricePricingView.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-30T11:51:52.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "PricingDataGrid.xaml.cs",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Shared\\Controls\\PricingDataGrid.xaml.cs",
+              "RelativeDocumentMoniker": "ExcelTool\\Shared\\Controls\\PricingDataGrid.xaml.cs",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Shared\\Controls\\PricingDataGrid.xaml.cs",
+              "RelativeToolTip": "ExcelTool\\Shared\\Controls\\PricingDataGrid.xaml.cs",
+              "ViewState": "AgIAAJ0EAAAAAAAAAAAwwKwEAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T18:34:15.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "PricingDataGrid.xaml",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Shared\\Controls\\PricingDataGrid.xaml",
+              "RelativeDocumentMoniker": "ExcelTool\\Shared\\Controls\\PricingDataGrid.xaml",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Shared\\Controls\\PricingDataGrid.xaml",
+              "RelativeToolTip": "ExcelTool\\Shared\\Controls\\PricingDataGrid.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-26T18:34:09.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "PricingSettingsView.xaml.cs",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Settings\\PricingSettingsView.xaml.cs",
+              "RelativeDocumentMoniker": "ExcelTool\\Features\\Settings\\PricingSettingsView.xaml.cs",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Settings\\PricingSettingsView.xaml.cs",
+              "RelativeToolTip": "ExcelTool\\Features\\Settings\\PricingSettingsView.xaml.cs",
+              "ViewState": "AgIAANQAAAAAAAAAAAAMwOIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T18:31:16.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ProcessPricePricingView.xaml",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Settings\\Pricing\\Views\\ProcessPricePricingView.xaml",
+              "RelativeDocumentMoniker": "ExcelTool\\Features\\Settings\\Pricing\\Views\\ProcessPricePricingView.xaml",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Settings\\Pricing\\Views\\ProcessPricePricingView.xaml",
+              "RelativeToolTip": "ExcelTool\\Features\\Settings\\Pricing\\Views\\ProcessPricePricingView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-26T18:21:10.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "FilmPricingView.xaml.cs",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Settings\\Pricing\\Views\\FilmPricingView.xaml.cs",
+              "RelativeDocumentMoniker": "ExcelTool\\Features\\Settings\\Pricing\\Views\\FilmPricingView.xaml.cs",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Settings\\Pricing\\Views\\FilmPricingView.xaml.cs",
+              "RelativeToolTip": "ExcelTool\\Features\\Settings\\Pricing\\Views\\FilmPricingView.xaml.cs",
+              "ViewState": "AgIAACUBAAAAAAAAAAAcwDYBAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T11:07:38.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "PricingSettingsView.xaml",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Settings\\PricingSettingsView.xaml",
+              "RelativeDocumentMoniker": "ExcelTool\\Features\\Settings\\PricingSettingsView.xaml",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Settings\\PricingSettingsView.xaml",
+              "RelativeToolTip": "ExcelTool\\Features\\Settings\\PricingSettingsView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-26T18:30:39.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "FilmPricingView.xaml",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Settings\\Pricing\\Views\\FilmPricingView.xaml",
+              "RelativeDocumentMoniker": "ExcelTool\\Features\\Settings\\Pricing\\Views\\FilmPricingView.xaml",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Settings\\Pricing\\Views\\FilmPricingView.xaml",
+              "RelativeToolTip": "ExcelTool\\Features\\Settings\\Pricing\\Views\\FilmPricingView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-30T11:06:30.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "GluePricePricingView.xaml.cs",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Settings\\Pricing\\Views\\GluePricePricingView.xaml.cs",
+              "RelativeDocumentMoniker": "ExcelTool\\Features\\Settings\\Pricing\\Views\\GluePricePricingView.xaml.cs",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Settings\\Pricing\\Views\\GluePricePricingView.xaml.cs",
+              "RelativeToolTip": "ExcelTool\\Features\\Settings\\Pricing\\Views\\GluePricePricingView.xaml.cs",
+              "ViewState": "AgIAACUBAAAAAAAAAAAcwDsBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T10:55:47.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "GluePricePricingView.xaml",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Settings\\Pricing\\Views\\GluePricePricingView.xaml",
+              "RelativeDocumentMoniker": "ExcelTool\\Features\\Settings\\Pricing\\Views\\GluePricePricingView.xaml",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Settings\\Pricing\\Views\\GluePricePricingView.xaml",
+              "RelativeToolTip": "ExcelTool\\Features\\Settings\\Pricing\\Views\\GluePricePricingView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-30T10:54:43.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "WasteSetting.cs",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Models\\Pricing\\WasteSetting.cs",
+              "RelativeDocumentMoniker": "ExcelTool\\Models\\Pricing\\WasteSetting.cs",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Models\\Pricing\\WasteSetting.cs",
+              "RelativeToolTip": "ExcelTool\\Models\\Pricing\\WasteSetting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T10:51:53.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "UnitSetting.cs",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Models\\Pricing\\UnitSetting.cs",
+              "RelativeDocumentMoniker": "ExcelTool\\Models\\Pricing\\UnitSetting.cs",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Models\\Pricing\\UnitSetting.cs",
+              "RelativeToolTip": "ExcelTool\\Models\\Pricing\\UnitSetting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T19:40:47.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "SupportSettingExcelImporter.cs",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Services\\Pricing\\SupportSettingExcelImporter.cs",
+              "RelativeDocumentMoniker": "ExcelTool\\Services\\Pricing\\SupportSettingExcelImporter.cs",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Services\\Pricing\\SupportSettingExcelImporter.cs",
+              "RelativeToolTip": "ExcelTool\\Services\\Pricing\\SupportSettingExcelImporter.cs",
+              "ViewState": "AgIAAKUCAAAAAAAAAAAcwLECAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T20:11:11.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "SupportSettingRepository.cs",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Repositories\\SupportSettingRepository.cs",
+              "RelativeDocumentMoniker": "ExcelTool\\Repositories\\SupportSettingRepository.cs",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Repositories\\SupportSettingRepository.cs",
+              "RelativeToolTip": "ExcelTool\\Repositories\\SupportSettingRepository.cs",
+              "ViewState": "AgIAAEQBAAAAAAAAAAAcwFEBAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T20:05:31.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "SupportSettingService.cs",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Services\\Pricing\\SupportSettingService.cs",
+              "RelativeDocumentMoniker": "ExcelTool\\Services\\Pricing\\SupportSettingService.cs",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Services\\Pricing\\SupportSettingService.cs",
+              "RelativeToolTip": "ExcelTool\\Services\\Pricing\\SupportSettingService.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAwwGEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T20:10:00.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "SupportPricingView.xaml.cs",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Settings\\Pricing\\Views\\SupportPricingView.xaml.cs",
+              "RelativeDocumentMoniker": "ExcelTool\\Features\\Settings\\Pricing\\Views\\SupportPricingView.xaml.cs",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Settings\\Pricing\\Views\\SupportPricingView.xaml.cs",
+              "RelativeToolTip": "ExcelTool\\Features\\Settings\\Pricing\\Views\\SupportPricingView.xaml.cs",
+              "ViewState": "AgIAACgBAAAAAAAAAAAIwDgBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T20:17:18.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "SupportPricingView.xaml",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Settings\\Pricing\\Views\\SupportPricingView.xaml",
+              "RelativeDocumentMoniker": "ExcelTool\\Features\\Settings\\Pricing\\Views\\SupportPricingView.xaml",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Settings\\Pricing\\Views\\SupportPricingView.xaml",
+              "RelativeToolTip": "ExcelTool\\Features\\Settings\\Pricing\\Views\\SupportPricingView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-26T20:14:09.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "UnitPricingView.xaml",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Settings\\Pricing\\Views\\UnitPricingView.xaml",
+              "RelativeDocumentMoniker": "ExcelTool\\Features\\Settings\\Pricing\\Views\\UnitPricingView.xaml",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Settings\\Pricing\\Views\\UnitPricingView.xaml",
+              "RelativeToolTip": "ExcelTool\\Features\\Settings\\Pricing\\Views\\UnitPricingView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-26T19:47:14.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "SupportSetting.cs",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Models\\Pricing\\SupportSetting.cs",
+              "RelativeDocumentMoniker": "ExcelTool\\Models\\Pricing\\SupportSetting.cs",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Models\\Pricing\\SupportSetting.cs",
+              "RelativeToolTip": "ExcelTool\\Models\\Pricing\\SupportSetting.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T20:02:12.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "UnitPricingView.xaml.cs",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Settings\\Pricing\\Views\\UnitPricingView.xaml.cs",
+              "RelativeDocumentMoniker": "ExcelTool\\Features\\Settings\\Pricing\\Views\\UnitPricingView.xaml.cs",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Settings\\Pricing\\Views\\UnitPricingView.xaml.cs",
+              "RelativeToolTip": "ExcelTool\\Features\\Settings\\Pricing\\Views\\UnitPricingView.xaml.cs",
+              "ViewState": "AgIAAGoCAAAAAAAAAAAcwHYCAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T19:47:44.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "UnitSettingRepository.cs",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Repositories\\UnitSettingRepository.cs",
+              "RelativeDocumentMoniker": "ExcelTool\\Repositories\\UnitSettingRepository.cs",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Repositories\\UnitSettingRepository.cs",
+              "RelativeToolTip": "ExcelTool\\Repositories\\UnitSettingRepository.cs",
+              "ViewState": "AgIAABoBAAAAAAAAAAAcwCUBAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T19:41:07.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "MoldPricePricingView.xaml.cs",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Settings\\Pricing\\Views\\MoldPricePricingView.xaml.cs",
+              "RelativeDocumentMoniker": "ExcelTool\\Features\\Settings\\Pricing\\Views\\MoldPricePricingView.xaml.cs",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Settings\\Pricing\\Views\\MoldPricePricingView.xaml.cs",
+              "RelativeToolTip": "ExcelTool\\Features\\Settings\\Pricing\\Views\\MoldPricePricingView.xaml.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAAAJAAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T19:06:30.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "UnitSettingService.cs",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Services\\Pricing\\UnitSettingService.cs",
+              "RelativeDocumentMoniker": "ExcelTool\\Services\\Pricing\\UnitSettingService.cs",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Services\\Pricing\\UnitSettingService.cs",
+              "RelativeToolTip": "ExcelTool\\Services\\Pricing\\UnitSettingService.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAkwGgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T19:42:23.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "UnitSettingExcelImporter.cs",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Services\\Pricing\\UnitSettingExcelImporter.cs",
+              "RelativeDocumentMoniker": "ExcelTool\\Services\\Pricing\\UnitSettingExcelImporter.cs",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Services\\Pricing\\UnitSettingExcelImporter.cs",
+              "RelativeToolTip": "ExcelTool\\Services\\Pricing\\UnitSettingExcelImporter.cs",
+              "ViewState": "AgIAAGEBAAAAAAAAAAAAAGgBAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T19:43:24.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "MoldPricePricingView.xaml",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Settings\\Pricing\\Views\\MoldPricePricingView.xaml",
+              "RelativeDocumentMoniker": "ExcelTool\\Features\\Settings\\Pricing\\Views\\MoldPricePricingView.xaml",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Settings\\Pricing\\Views\\MoldPricePricingView.xaml",
+              "RelativeToolTip": "ExcelTool\\Features\\Settings\\Pricing\\Views\\MoldPricePricingView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-26T19:05:52.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "PrintBatchPricingView.xaml.cs",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Settings\\Pricing\\Views\\PrintBatchPricingView.xaml.cs",
+              "RelativeDocumentMoniker": "ExcelTool\\Features\\Settings\\Pricing\\Views\\PrintBatchPricingView.xaml.cs",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Settings\\Pricing\\Views\\PrintBatchPricingView.xaml.cs",
+              "RelativeToolTip": "ExcelTool\\Features\\Settings\\Pricing\\Views\\PrintBatchPricingView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T16:31:13.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "ProcessPricePricingView.xaml.cs",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Settings\\Pricing\\Views\\ProcessPricePricingView.xaml.cs",
+              "RelativeDocumentMoniker": "ExcelTool\\Features\\Settings\\Pricing\\Views\\ProcessPricePricingView.xaml.cs",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Settings\\Pricing\\Views\\ProcessPricePricingView.xaml.cs",
+              "RelativeToolTip": "ExcelTool\\Features\\Settings\\Pricing\\Views\\ProcessPricePricingView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T18:29:46.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "HeaderControl.xaml",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Shared\\Controls\\HeaderControl.xaml",
+              "RelativeDocumentMoniker": "ExcelTool\\Shared\\Controls\\HeaderControl.xaml",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Shared\\Controls\\HeaderControl.xaml",
+              "RelativeToolTip": "ExcelTool\\Shared\\Controls\\HeaderControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-26T16:32:07.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "PrintPricePricingView.xaml.cs",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Settings\\Pricing\\Views\\PrintPricePricingView.xaml.cs",
+              "RelativeDocumentMoniker": "ExcelTool\\Features\\Settings\\Pricing\\Views\\PrintPricePricingView.xaml.cs",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Settings\\Pricing\\Views\\PrintPricePricingView.xaml.cs",
+              "RelativeToolTip": "ExcelTool\\Features\\Settings\\Pricing\\Views\\PrintPricePricingView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T16:31:44.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "ShippingPricingView.xaml",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Settings\\Pricing\\Views\\ShippingPricingView.xaml",
+              "RelativeDocumentMoniker": "ExcelTool\\Features\\Settings\\Pricing\\Views\\ShippingPricingView.xaml",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Settings\\Pricing\\Views\\ShippingPricingView.xaml",
+              "RelativeToolTip": "ExcelTool\\Features\\Settings\\Pricing\\Views\\ShippingPricingView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-26T16:31:36.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "PrintBatchPricingView.xaml",
+              "DocumentMoniker": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Settings\\Pricing\\Views\\PrintBatchPricingView.xaml",
+              "RelativeDocumentMoniker": "ExcelTool\\Features\\Settings\\Pricing\\Views\\PrintBatchPricingView.xaml",
+              "ToolTip": "D:\\support\\02_BaoBi\\ExcelTool\\ExcelTool\\Features\\Settings\\Pricing\\Views\\PrintBatchPricingView.xaml",
+              "RelativeToolTip": "ExcelTool\\Features\\Settings\\Pricing\\Views\\PrintBatchPricingView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-26T16:31:15.207Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

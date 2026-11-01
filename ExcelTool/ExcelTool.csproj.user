@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="Features\About\AboutView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Features\Attachment\AttachmentView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Features\Customer\CustomerDetailWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Features\Customer\CustomerEditWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Features\Customer\CustomerFormWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Features\Customer\CustomerView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Features\Dashboard\DashboardView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Features\Data\Create\CreateCostSummaryView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Features\Data\Create\CreateDataInfoView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Features\Data\Create\CreateFinishedProductView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Features\Data\Create\CreatePaperPrintView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Features\Data\Create\CreatePostPrintView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Features\Data\Create\SauIn\Boi.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Features\Data\Create\SauIn\EpNhu_CanVan.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Features\Data\Create\SauIn\RuotSach.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Features\Data\Create\SauIn\TrangPhu_CanMang.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Features\Data\Create\TaoSauInView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Features\Data\DataCreateView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Features\Data\DataDetailView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Features\Data\DataView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Features\Process\ProcessView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Features\Production\ProductionCreateView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Features\Production\ProductionDetailView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Features\Production\ProductionView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Features\Quotation\QuotationCreateView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Features\Quotation\QuotationDetailView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Features\Quotation\QuotationEditView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Features\Quotation\QuotationView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Features\Report\ReportView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Features\Settings\PricingSettingsView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Features\Settings\Pricing\Views\BomPricingView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Features\Settings\Pricing\Views\FilmPricingView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Features\Settings\Pricing\Views\GluePricePricingView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Features\Settings\Pricing\Views\MoldPricePricingView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Features\Settings\Pricing\Views\PrintBatchPricingView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Features\Settings\Pricing\Views\ProcessPricePricingView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Features\Settings\Pricing\Views\ShippingPricingView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Features\Settings\Pricing\Views\SupportPricingView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Features\Settings\Pricing\Views\UnitPricingView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Features\Settings\SettingsView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Features\Templates\TemplatesView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Features\Tools\ToolsView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Shared\Controls\HeaderControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Shared\Controls\PricingDataGrid.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Shared\Controls\SidebarControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Shared\Controls\SidebarMenuItem.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Shared\Controls\StatisticCard.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Shared\Controls\StatusBarControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Shared\Controls\WasteDataGrid.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

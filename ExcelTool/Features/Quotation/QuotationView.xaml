@@ -1,0 +1,467 @@
+﻿<UserControl x:Class="ExcelTool.Features.Quotation.QuotationView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d"
+             d:DesignHeight="650"
+             d:DesignWidth="1050">
+
+    <Grid Background="#F5F7FB">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+
+        <!-- ================================================= -->
+        <!-- HEADER -->
+        <!-- ================================================= -->
+
+        <Grid Grid.Row="0"
+              Margin="25,25,25,15">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+
+            <!-- TIÊU ĐỀ -->
+
+            <StackPanel>
+
+                <TextBlock Text="Báo giá"
+                           FontSize="28"
+                           FontWeight="Bold"
+                           Foreground="#172033"/>
+
+                <TextBlock Text="Quản lý và theo dõi các báo giá"
+                           Margin="0,5,0,0"
+                           FontSize="14"
+                           Foreground="#7A8499"/>
+
+            </StackPanel>
+
+
+            <!-- TẠO BÁO GIÁ -->
+
+            <Button Grid.Column="1"
+                    Content="+  Tạo báo giá"
+                    Width="140"
+                    Height="42"
+                    Padding="15,0"
+                    Background="#1976D2"
+                    Foreground="White"
+                    BorderThickness="0"
+                    FontSize="14"
+                    FontWeight="SemiBold"
+                    Cursor="Hand"
+                    Click="CreateQuotationButton_Click"/>
+
+        </Grid>
+
+
+        <!-- ================================================= -->
+        <!-- FILTER -->
+        <!-- ================================================= -->
+
+        <Border Grid.Row="1"
+                Background="White"
+                BorderBrush="#E1E6EF"
+                BorderThickness="1"
+                CornerRadius="10"
+                Margin="25,0,25,15"
+                Padding="15">
+
+            <Grid>
+
+                <Grid.ColumnDefinitions>
+
+                    <ColumnDefinition Width="*"/>
+
+                    <ColumnDefinition Width="180"/>
+
+                    <ColumnDefinition Width="180"/>
+
+                    <ColumnDefinition Width="70"/>
+
+                    <ColumnDefinition Width="90"/>
+
+                </Grid.ColumnDefinitions>
+
+
+                <!-- ================================================= -->
+                <!-- TÌM KIẾM -->
+                <!-- ================================================= -->
+
+                <Border Grid.Column="0"
+                        Height="40"
+                        BorderBrush="#D8DEE8"
+                        BorderThickness="1"
+                        CornerRadius="6"
+                        Margin="0,0,10,0">
+
+                    <Grid>
+
+                        <Grid.ColumnDefinitions>
+
+                            <ColumnDefinition Width="40"/>
+
+                            <ColumnDefinition Width="*"/>
+
+                        </Grid.ColumnDefinitions>
+
+
+                        <TextBlock Grid.Column="0"
+                                   Text="⌕"
+                                   FontSize="20"
+                                   Foreground="#7A8499"
+                                   HorizontalAlignment="Center"
+                                   VerticalAlignment="Center"/>
+
+
+                        <TextBox x:Name="SearchTextBox"
+                                 Grid.Column="1"
+                                 BorderThickness="0"
+                                 VerticalContentAlignment="Center"
+                                 FontSize="13"
+                                 Foreground="#253044"
+                                 ToolTip="Tìm theo mã báo giá, khách hàng hoặc sản phẩm"/>
+
+                    </Grid>
+
+                </Border>
+
+
+                <!-- ================================================= -->
+                <!-- KHÁCH HÀNG -->
+                <!-- ================================================= -->
+
+                <ComboBox x:Name="CustomerFilterComboBox"
+                          Grid.Column="1"
+                          Height="40"
+                          Margin="0,0,10,0"
+                          VerticalContentAlignment="Center"
+                          FontSize="13"/>
+
+
+                <!-- ================================================= -->
+                <!-- TRẠNG THÁI -->
+                <!-- ================================================= -->
+
+                <ComboBox x:Name="StatusFilterComboBox"
+                          Grid.Column="2"
+                          Height="40"
+                          Margin="0,0,10,0"
+                          VerticalContentAlignment="Center"
+                          FontSize="13"/>
+
+
+                <!-- ================================================= -->
+                <!-- LỌC -->
+                <!-- ================================================= -->
+
+                <Button Grid.Column="3"
+                        Content="Lọc"
+                        Width="60"
+                        Height="40"
+                        Margin="0,0,10,0"
+                        Background="#EEF5FD"
+                        BorderBrush="#C7DCF5"
+                        BorderThickness="1"
+                        Foreground="#1976D2"
+                        FontWeight="SemiBold"
+                        Cursor="Hand"
+                        Click="FilterButton_Click"/>
+
+
+                <!-- ================================================= -->
+                <!-- ĐẶT LẠI -->
+                <!-- ================================================= -->
+
+                <Button Grid.Column="4"
+                        Content="Đặt lại"
+                        Width="80"
+                        Height="40"
+                        Background="White"
+                        BorderBrush="#D8DEE8"
+                        BorderThickness="1"
+                        Foreground="#596579"
+                        FontWeight="SemiBold"
+                        Cursor="Hand"
+                        Click="ResetFilterButton_Click"/>
+
+            </Grid>
+
+        </Border>
+
+
+        <!-- ================================================= -->
+        <!-- TABLE -->
+        <!-- ================================================= -->
+
+        <Border Grid.Row="2"
+                Background="White"
+                BorderBrush="#E1E6EF"
+                BorderThickness="1"
+                CornerRadius="10"
+                Margin="25,0,25,25">
+
+            <Grid>
+
+                <Grid.RowDefinitions>
+
+                    <RowDefinition Height="Auto"/>
+
+                    <RowDefinition Height="*"/>
+
+                </Grid.RowDefinitions>
+
+
+                <!-- ================================================= -->
+                <!-- TABLE HEADER -->
+                <!-- ================================================= -->
+
+                <Border Grid.Row="0"
+                        Background="#F8FAFD"
+                        BorderBrush="#E1E6EF"
+                        BorderThickness="0,0,0,1"
+                        Padding="15,12">
+
+                    <Grid>
+
+                        <Grid.ColumnDefinitions>
+
+                            <ColumnDefinition Width="150"/>
+
+                            <ColumnDefinition Width="200"/>
+
+                            <ColumnDefinition Width="*"/>
+
+                            <ColumnDefinition Width="110"/>
+
+                            <ColumnDefinition Width="130"/>
+
+                            <ColumnDefinition Width="110"/>
+
+                            <ColumnDefinition Width="195"/>
+
+                        </Grid.ColumnDefinitions>
+
+
+                        <TextBlock Grid.Column="0"
+                                   Text="Mã BG"
+                                   FontWeight="SemiBold"
+                                   Foreground="#596579"/>
+
+                        <TextBlock Grid.Column="1"
+                                   Text="Khách hàng"
+                                   FontWeight="SemiBold"
+                                   Foreground="#596579"/>
+
+                        <TextBlock Grid.Column="2"
+                                   Text="Sản phẩm"
+                                   FontWeight="SemiBold"
+                                   Foreground="#596579"/>
+
+                        <TextBlock Grid.Column="3"
+                                   Text="Ngày"
+                                   FontWeight="SemiBold"
+                                   Foreground="#596579"/>
+
+                        <TextBlock Grid.Column="4"
+                                   Text="Giá trị"
+                                   FontWeight="SemiBold"
+                                   Foreground="#596579"/>
+
+                        <TextBlock Grid.Column="5"
+                                   Text="Trạng thái"
+                                   FontWeight="SemiBold"
+                                   Foreground="#596579"/>
+
+                        <TextBlock Grid.Column="6"
+                                   Text="Thao tác"
+                                   FontWeight="SemiBold"
+                                   Foreground="#596579"/>
+
+                    </Grid>
+
+                </Border>
+
+
+                <!-- ================================================= -->
+                <!-- TABLE BODY -->
+                <!-- ================================================= -->
+
+                <ScrollViewer Grid.Row="1"
+                              VerticalScrollBarVisibility="Auto"
+                              HorizontalScrollBarVisibility="Disabled">
+
+                    <ItemsControl x:Name="QuotationList">
+
+                        <ItemsControl.ItemTemplate>
+
+                            <DataTemplate>
+
+                                <Border BorderBrush="#EEF1F5"
+                                        BorderThickness="0,0,0,1"
+                                        Padding="15,12">
+
+                                    <Grid>
+
+                                        <Grid.ColumnDefinitions>
+
+                                            <ColumnDefinition Width="150"/>
+
+                                            <ColumnDefinition Width="200"/>
+
+                                            <ColumnDefinition Width="*"/>
+
+                                            <ColumnDefinition Width="110"/>
+
+                                            <ColumnDefinition Width="130"/>
+
+                                            <ColumnDefinition Width="110"/>
+
+                                            <ColumnDefinition Width="195"/>
+
+                                        </Grid.ColumnDefinitions>
+
+
+                                        <!-- MÃ -->
+
+                                        <TextBlock Grid.Column="0"
+                                                   Text="{Binding Id}"
+                                                   FontWeight="SemiBold"
+                                                   Foreground="#1976D2"
+                                                   VerticalAlignment="Center"
+                                                   TextTrimming="CharacterEllipsis"/>
+
+
+                                        <!-- KHÁCH HÀNG -->
+
+                                        <TextBlock Grid.Column="1"
+                                                   Text="{Binding CustomerName}"
+                                                   Foreground="#253044"
+                                                   VerticalAlignment="Center"
+                                                   TextTrimming="CharacterEllipsis"
+                                                   ToolTip="{Binding CustomerName}"/>
+
+
+                                        <!-- SẢN PHẨM -->
+
+                                        <TextBlock Grid.Column="2"
+                                                   Text="{Binding ProductNames}"
+                                                   Foreground="#253044"
+                                                   VerticalAlignment="Center"
+                                                   TextTrimming="CharacterEllipsis"
+                                                   ToolTip="{Binding ProductNames}"/>
+
+
+                                        <!-- NGÀY -->
+
+                                        <TextBlock Grid.Column="3"
+                                                   Text="{Binding CreatedDate, StringFormat={}{0:dd/MM/yyyy}}"
+                                                   Foreground="#596579"
+                                                   VerticalAlignment="Center"/>
+
+
+                                        <!-- GIÁ TRỊ -->
+
+                                        <TextBlock Grid.Column="4"
+                                                   Text="{Binding TotalAmount, StringFormat={}{0:N0} VNĐ}"
+                                                   FontWeight="SemiBold"
+                                                   Foreground="#253044"
+                                                   VerticalAlignment="Center"/>
+
+
+                                        <!-- TRẠNG THÁI -->
+
+                                        <Border Grid.Column="5"
+                                                Background="#F1F3F5"
+                                                CornerRadius="12"
+                                                Padding="10,5"
+                                                HorizontalAlignment="Left"
+                                                VerticalAlignment="Center">
+
+                                            <TextBlock Text="{Binding Status}"
+                                                       Foreground="#596579"
+                                                       FontSize="12"
+                                                       FontWeight="SemiBold"/>
+
+                                        </Border>
+
+
+                                        <!-- THAO TÁC -->
+
+                                        <StackPanel Grid.Column="6"
+                                                    Orientation="Horizontal"
+                                                    VerticalAlignment="Center">
+
+                                            <!-- XEM -->
+
+                                            <Button Content="Xem"
+                                                    Width="55"
+                                                    Height="30"
+                                                    Margin="0,0,5,0"
+                                                    Background="Transparent"
+                                                    BorderBrush="#1976D2"
+                                                    BorderThickness="1"
+                                                    Foreground="#1976D2"
+                                                    Cursor="Hand"
+                                                    Tag="{Binding Id}"
+                                                    Click="QuotationViewButton_Click"/>
+
+
+                                            <!-- SỬA -->
+
+                                            <Button Content="Sửa"
+                                                    Width="55"
+                                                    Height="30"
+                                                    Margin="0,0,5,0"
+                                                    Background="Transparent"
+                                                    BorderBrush="#D8DEE8"
+                                                    BorderThickness="1"
+                                                    Foreground="#596579"
+                                                    Cursor="Hand"
+                                                    Tag="{Binding Id}"
+                                                    Click="EditQuotationButton_Click"/>
+
+
+                                            <!-- XÓA -->
+
+                                            <Button Content="Xóa"
+                                                    Width="55"
+                                                    Height="30"
+                                                    Background="Transparent"
+                                                    BorderBrush="#E57373"
+                                                    BorderThickness="1"
+                                                    Foreground="#D32F2F"
+                                                    Cursor="Hand"
+                                                    Tag="{Binding Id}"
+                                                    Click="DeleteQuotationButton_Click"/>
+
+                                        </StackPanel>
+
+                                    </Grid>
+
+                                </Border>
+
+                            </DataTemplate>
+
+                        </ItemsControl.ItemTemplate>
+
+                    </ItemsControl>
+
+                </ScrollViewer>
+
+            </Grid>
+
+        </Border>
+
+    </Grid>
+
+</UserControl>

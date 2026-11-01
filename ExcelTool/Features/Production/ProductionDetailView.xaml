@@ -1,0 +1,552 @@
+﻿<UserControl x:Class="ExcelTool.Features.Production.ProductionDetailView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d"
+             d:DesignHeight="650"
+             d:DesignWidth="1050">
+
+    <Grid Background="#F5F7FB">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+
+        <!-- ========================================== -->
+        <!-- HEADER -->
+        <!-- ========================================== -->
+
+        <Grid Grid.Row="0"
+              Margin="25,25,25,15">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+
+            <StackPanel>
+
+                <TextBlock Text="Chi tiết lệnh sản xuất"
+                           FontSize="28"
+                           FontWeight="Bold"
+                           Foreground="#172033"/>
+
+                <TextBlock Text="Thông tin chi tiết và tiến độ sản xuất"
+                           Margin="0,5,0,0"
+                           FontSize="14"
+                           Foreground="#7A8499"/>
+
+            </StackPanel>
+
+
+            <!-- QUAY LẠI -->
+
+            <Button Grid.Column="1"
+                    Content="←  Quay lại"
+                    Width="110"
+                    Height="40"
+                    Background="White"
+                    BorderBrush="#1976D2"
+                    BorderThickness="1"
+                    Foreground="#1976D2"
+                    FontWeight="SemiBold"
+                    Cursor="Hand"
+                    Click="BackButton_Click"/>
+
+        </Grid>
+
+
+        <!-- ========================================== -->
+        <!-- CONTENT -->
+        <!-- ========================================== -->
+
+        <ScrollViewer Grid.Row="1"
+                      VerticalScrollBarVisibility="Auto">
+
+            <StackPanel Margin="25,0,25,25">
+
+
+                <!-- ========================================== -->
+                <!-- THÔNG TIN LỆNH -->
+                <!-- ========================================== -->
+
+                <Border Background="White"
+                        BorderBrush="#E1E6EF"
+                        BorderThickness="1"
+                        CornerRadius="10"
+                        Padding="20"
+                        Margin="0,0,0,15">
+
+                    <StackPanel>
+
+                        <TextBlock Text="Thông tin lệnh sản xuất"
+                                   FontSize="18"
+                                   FontWeight="Bold"
+                                   Foreground="#172033"
+                                   Margin="0,0,0,20"/>
+
+
+                        <Grid>
+
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="180"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="180"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="42"/>
+                                <RowDefinition Height="42"/>
+                                <RowDefinition Height="42"/>
+                                <RowDefinition Height="42"/>
+                            </Grid.RowDefinitions>
+
+
+                            <!-- MÃ LỆNH -->
+
+                            <TextBlock Grid.Row="0"
+                                       Grid.Column="0"
+                                       Text="Mã lệnh"
+                                       Foreground="#7A8499"
+                                       VerticalAlignment="Center"/>
+
+                            <TextBlock Grid.Row="0"
+                                       Grid.Column="1"
+                                       Text="LSX001"
+                                       FontWeight="Bold"
+                                       Foreground="#1976D2"
+                                       VerticalAlignment="Center"/>
+
+
+                            <!-- NGÀY LẬP -->
+
+                            <TextBlock Grid.Row="0"
+                                       Grid.Column="2"
+                                       Text="Ngày lập"
+                                       Foreground="#7A8499"
+                                       VerticalAlignment="Center"/>
+
+                            <TextBlock Grid.Row="0"
+                                       Grid.Column="3"
+                                       Text="07/04/2026"
+                                       Foreground="#172033"
+                                       VerticalAlignment="Center"/>
+
+
+                            <!-- KHÁCH HÀNG -->
+
+                            <TextBlock Grid.Row="1"
+                                       Grid.Column="0"
+                                       Text="Khách hàng"
+                                       Foreground="#7A8499"
+                                       VerticalAlignment="Center"/>
+
+                            <TextBlock Grid.Row="1"
+                                       Grid.Column="1"
+                                       Text="Công ty A"
+                                       FontWeight="SemiBold"
+                                       Foreground="#172033"
+                                       VerticalAlignment="Center"/>
+
+
+                            <!-- TRẠNG THÁI -->
+
+                            <TextBlock Grid.Row="1"
+                                       Grid.Column="2"
+                                       Text="Trạng thái"
+                                       Foreground="#7A8499"
+                                       VerticalAlignment="Center"/>
+
+                            <Border Grid.Row="1"
+                                    Grid.Column="3"
+                                    Background="#FFF4E5"
+                                    CornerRadius="12"
+                                    Padding="10,5"
+                                    HorizontalAlignment="Left">
+
+                                <TextBlock Text="Chờ sản xuất"
+                                           Foreground="#B26A00"
+                                           FontSize="12"
+                                           FontWeight="SemiBold"/>
+
+                            </Border>
+
+
+                            <!-- SẢN PHẨM -->
+
+                            <TextBlock Grid.Row="2"
+                                       Grid.Column="0"
+                                       Text="Sản phẩm"
+                                       Foreground="#7A8499"
+                                       VerticalAlignment="Center"/>
+
+                            <TextBlock Grid.Row="2"
+                                       Grid.Column="1"
+                                       Text="HỘP CAO GAN"
+                                       FontWeight="SemiBold"
+                                       Foreground="#172033"
+                                       VerticalAlignment="Center"/>
+
+
+                            <!-- SỐ LƯỢNG -->
+
+                            <TextBlock Grid.Row="2"
+                                       Grid.Column="2"
+                                       Text="Số lượng"
+                                       Foreground="#7A8499"
+                                       VerticalAlignment="Center"/>
+
+                            <TextBlock Grid.Row="2"
+                                       Grid.Column="3"
+                                       Text="15,000"
+                                       FontWeight="SemiBold"
+                                       Foreground="#172033"
+                                       VerticalAlignment="Center"/>
+
+
+                            <!-- NGÀY SX -->
+
+                            <TextBlock Grid.Row="3"
+                                       Grid.Column="0"
+                                       Text="Ngày sản xuất"
+                                       Foreground="#7A8499"
+                                       VerticalAlignment="Center"/>
+
+                            <TextBlock Grid.Row="3"
+                                       Grid.Column="1"
+                                       Text="10/04/2026"
+                                       Foreground="#172033"
+                                       VerticalAlignment="Center"/>
+
+
+                            <!-- NGÀY GIAO -->
+
+                            <TextBlock Grid.Row="3"
+                                       Grid.Column="2"
+                                       Text="Ngày giao dự kiến"
+                                       Foreground="#7A8499"
+                                       VerticalAlignment="Center"/>
+
+                            <TextBlock Grid.Row="3"
+                                       Grid.Column="3"
+                                       Text="12/04/2026"
+                                       Foreground="#172033"
+                                       VerticalAlignment="Center"/>
+
+                        </Grid>
+
+                    </StackPanel>
+
+                </Border>
+
+
+                <!-- ========================================== -->
+                <!-- TIẾN ĐỘ -->
+                <!-- ========================================== -->
+
+                <Border Background="White"
+                        BorderBrush="#E1E6EF"
+                        BorderThickness="1"
+                        CornerRadius="10"
+                        Padding="20"
+                        Margin="0,0,0,15">
+
+                    <StackPanel>
+
+                        <TextBlock Text="Tiến độ sản xuất"
+                                   FontSize="18"
+                                   FontWeight="Bold"
+                                   Foreground="#172033"
+                                   Margin="0,0,0,18"/>
+
+
+                        <!-- PROGRESS -->
+
+                        <Grid>
+
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+
+
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+
+
+                            <TextBlock Text="Tiến độ hoàn thành"
+                                       Foreground="#596579"/>
+
+                            <TextBlock Grid.Column="1"
+                                       Text="25%"
+                                       FontWeight="Bold"
+                                       Foreground="#1976D2"/>
+
+
+                            <ProgressBar Grid.Row="1"
+                                         Grid.ColumnSpan="2"
+                                         Height="12"
+                                         Margin="0,10,0,0"
+                                         Minimum="0"
+                                         Maximum="100"
+                                         Value="25"/>
+
+                        </Grid>
+
+
+                        <!-- CÁC CÔNG ĐOẠN -->
+
+                        <Grid Margin="0,25,0,0">
+
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+
+                            <!-- 1 -->
+
+                            <StackPanel Grid.Column="0">
+
+                                <Ellipse Width="28"
+                                         Height="28"
+                                         Fill="#1976D2"
+                                         HorizontalAlignment="Center"/>
+
+                                <TextBlock Text="Chuẩn bị"
+                                           HorizontalAlignment="Center"
+                                           Margin="0,8,0,0"
+                                           FontWeight="SemiBold"/>
+
+                            </StackPanel>
+
+
+                            <!-- 2 -->
+
+                            <StackPanel Grid.Column="1">
+
+                                <Ellipse Width="28"
+                                         Height="28"
+                                         Fill="#1976D2"
+                                         HorizontalAlignment="Center"/>
+
+                                <TextBlock Text="In"
+                                           HorizontalAlignment="Center"
+                                           Margin="0,8,0,0"
+                                           FontWeight="SemiBold"/>
+
+                            </StackPanel>
+
+
+                            <!-- 3 -->
+
+                            <StackPanel Grid.Column="2">
+
+                                <Ellipse Width="28"
+                                         Height="28"
+                                         Fill="#D8DEE8"
+                                         HorizontalAlignment="Center"/>
+
+                                <TextBlock Text="Gia công"
+                                           HorizontalAlignment="Center"
+                                           Margin="0,8,0,0"
+                                           Foreground="#7A8499"/>
+
+                            </StackPanel>
+
+
+                            <!-- 4 -->
+
+                            <StackPanel Grid.Column="3">
+
+                                <Ellipse Width="28"
+                                         Height="28"
+                                         Fill="#D8DEE8"
+                                         HorizontalAlignment="Center"/>
+
+                                <TextBlock Text="Hoàn thành"
+                                           HorizontalAlignment="Center"
+                                           Margin="0,8,0,0"
+                                           Foreground="#7A8499"/>
+
+                            </StackPanel>
+
+                        </Grid>
+
+                    </StackPanel>
+
+                </Border>
+
+
+                <!-- ========================================== -->
+                <!-- CHI TIẾT SẢN XUẤT -->
+                <!-- ========================================== -->
+
+                <Border Background="White"
+                        BorderBrush="#E1E6EF"
+                        BorderThickness="1"
+                        CornerRadius="10"
+                        Padding="20"
+                        Margin="0,0,0,15">
+
+                    <StackPanel>
+
+                        <TextBlock Text="Chi tiết sản xuất"
+                                   FontSize="18"
+                                   FontWeight="Bold"
+                                   Foreground="#172033"
+                                   Margin="0,0,0,18"/>
+
+
+                        <Grid>
+
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="180"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="180"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="42"/>
+                                <RowDefinition Height="42"/>
+                                <RowDefinition Height="42"/>
+                                <RowDefinition Height="42"/>
+                            </Grid.RowDefinitions>
+
+
+                            <TextBlock Grid.Row="0"
+                                       Grid.Column="0"
+                                       Text="Khổ giấy"
+                                       Foreground="#7A8499"/>
+
+                            <TextBlock Grid.Row="0"
+                                       Grid.Column="1"
+                                       Text="65 x 86 cm"
+                                       Foreground="#172033"/>
+
+
+                            <TextBlock Grid.Row="0"
+                                       Grid.Column="2"
+                                       Text="Số sản phẩm/tờ"
+                                       Foreground="#7A8499"/>
+
+                            <TextBlock Grid.Row="0"
+                                       Grid.Column="3"
+                                       Text="4"
+                                       Foreground="#172033"/>
+
+
+                            <TextBlock Grid.Row="1"
+                                       Grid.Column="0"
+                                       Text="Công nghệ in"
+                                       Foreground="#7A8499"/>
+
+                            <TextBlock Grid.Row="1"
+                                       Grid.Column="1"
+                                       Text="In Offset"
+                                       Foreground="#172033"/>
+
+
+                            <TextBlock Grid.Row="1"
+                                       Grid.Column="2"
+                                       Text="Số màu"
+                                       Foreground="#7A8499"/>
+
+                            <TextBlock Grid.Row="1"
+                                       Grid.Column="3"
+                                       Text="4 màu"
+                                       Foreground="#172033"/>
+
+
+                            <TextBlock Grid.Row="2"
+                                       Grid.Column="0"
+                                       Text="Cán màng"
+                                       Foreground="#7A8499"/>
+
+                            <TextBlock Grid.Row="2"
+                                       Grid.Column="1"
+                                       Text="Có"
+                                       Foreground="#172033"/>
+
+
+                            <TextBlock Grid.Row="2"
+                                       Grid.Column="2"
+                                       Text="Bế"
+                                       Foreground="#7A8499"/>
+
+                            <TextBlock Grid.Row="2"
+                                       Grid.Column="3"
+                                       Text="Có"
+                                       Foreground="#172033"/>
+
+
+                            <TextBlock Grid.Row="3"
+                                       Grid.Column="0"
+                                       Text="Dán"
+                                       Foreground="#7A8499"/>
+
+                            <TextBlock Grid.Row="3"
+                                       Grid.Column="1"
+                                       Text="Có"
+                                       Foreground="#172033"/>
+
+
+                            <TextBlock Grid.Row="3"
+                                       Grid.Column="2"
+                                       Text="Đóng gói"
+                                       Foreground="#7A8499"/>
+
+                            <TextBlock Grid.Row="3"
+                                       Grid.Column="3"
+                                       Text="100 sản phẩm/kiện"
+                                       Foreground="#172033"/>
+
+                        </Grid>
+
+                    </StackPanel>
+
+                </Border>
+
+
+                <!-- ========================================== -->
+                <!-- GHI CHÚ -->
+                <!-- ========================================== -->
+
+                <Border Background="#F0F6FF"
+                        BorderBrush="#B9D5F5"
+                        BorderThickness="1"
+                        CornerRadius="10"
+                        Padding="20">
+
+                    <StackPanel>
+
+                        <TextBlock Text="Ghi chú sản xuất"
+                                   FontSize="18"
+                                   FontWeight="Bold"
+                                   Foreground="#172033"/>
+
+                        <TextBlock Text="Ghi chú cho bộ phận sản xuất..."
+                                   Margin="0,10,0,0"
+                                   Foreground="#596579"/>
+
+                    </StackPanel>
+
+                </Border>
+
+            </StackPanel>
+
+        </ScrollViewer>
+
+    </Grid>
+
+</UserControl>

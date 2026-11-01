@@ -1,0 +1,652 @@
+﻿<UserControl x:Class="ExcelTool.Features.Settings.PricingSettingsView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:controls="clr-namespace:ExcelTool.Shared.Controls"
+             xmlns:views="clr-namespace:ExcelTool.Features.Settings.Pricing.Views">
+
+    <UserControl.Resources>
+
+        <!-- ========================================================= -->
+        <!-- MENU BUTTON -->
+        <!-- ========================================================= -->
+
+        <Style x:Key="MenuButtonStyle"
+               TargetType="Button">
+
+            <Setter Property="Height"
+                    Value="42"/>
+
+            <Setter Property="Margin"
+                    Value="0,2,0,2"/>
+
+            <Setter Property="HorizontalContentAlignment"
+                    Value="Left"/>
+
+            <Setter Property="Padding"
+                    Value="14,0"/>
+
+            <Setter Property="Background"
+                    Value="Transparent"/>
+
+            <Setter Property="BorderThickness"
+                    Value="0"/>
+
+            <Setter Property="Foreground"
+                    Value="#596579"/>
+
+            <Setter Property="FontSize"
+                    Value="13"/>
+
+            <Setter Property="Cursor"
+                    Value="Hand"/>
+
+        </Style>
+
+
+        <!-- ========================================================= -->
+        <!-- SECTION TITLE -->
+        <!-- ========================================================= -->
+
+        <Style x:Key="SectionTitleStyle"
+               TargetType="TextBlock">
+
+            <Setter Property="FontSize"
+                    Value="20"/>
+
+            <Setter Property="FontWeight"
+                    Value="Bold"/>
+
+            <Setter Property="Foreground"
+                    Value="#172033"/>
+
+            <Setter Property="Margin"
+                    Value="0,0,0,5"/>
+
+        </Style>
+
+
+        <!-- ========================================================= -->
+        <!-- LABEL -->
+        <!-- ========================================================= -->
+
+        <Style x:Key="LabelStyle"
+               TargetType="TextBlock">
+
+            <Setter Property="FontWeight"
+                    Value="SemiBold"/>
+
+            <Setter Property="Foreground"
+                    Value="#596579"/>
+
+            <Setter Property="Margin"
+                    Value="0,0,0,6"/>
+
+        </Style>
+
+
+        <!-- ========================================================= -->
+        <!-- INPUT -->
+        <!-- ========================================================= -->
+
+        <Style x:Key="InputStyle"
+               TargetType="TextBox">
+
+            <Setter Property="Height"
+                    Value="36"/>
+
+            <Setter Property="Padding"
+                    Value="10,0"/>
+
+            <Setter Property="VerticalContentAlignment"
+                    Value="Center"/>
+
+            <Setter Property="Margin"
+                    Value="0,0,0,12"/>
+
+        </Style>
+
+
+        <!-- ========================================================= -->
+        <!-- PRIMARY BUTTON -->
+        <!-- ========================================================= -->
+
+        <Style x:Key="PrimaryButtonStyle"
+               TargetType="Button">
+
+            <Setter Property="Height"
+                    Value="38"/>
+
+            <Setter Property="Padding"
+                    Value="18,0"/>
+
+            <Setter Property="Background"
+                    Value="#1976D2"/>
+
+            <Setter Property="Foreground"
+                    Value="White"/>
+
+            <Setter Property="BorderThickness"
+                    Value="0"/>
+
+            <Setter Property="FontWeight"
+                    Value="SemiBold"/>
+
+            <Setter Property="Cursor"
+                    Value="Hand"/>
+
+        </Style>
+
+
+        <!-- ========================================================= -->
+        <!-- SECONDARY BUTTON -->
+        <!-- ========================================================= -->
+
+        <Style x:Key="SecondaryButtonStyle"
+               TargetType="Button">
+
+            <Setter Property="Height"
+                    Value="38"/>
+
+            <Setter Property="Padding"
+                    Value="18,0"/>
+
+            <Setter Property="Background"
+                    Value="#EEF5FD"/>
+
+            <Setter Property="Foreground"
+                    Value="#1976D2"/>
+
+            <Setter Property="BorderBrush"
+                    Value="#C7DCF5"/>
+
+            <Setter Property="BorderThickness"
+                    Value="1"/>
+
+            <Setter Property="FontWeight"
+                    Value="SemiBold"/>
+
+            <Setter Property="Cursor"
+                    Value="Hand"/>
+
+        </Style>
+
+    </UserControl.Resources>
+
+
+    <!-- ========================================================= -->
+    <!-- MAIN -->
+    <!-- ========================================================= -->
+
+    <Grid Background="#F5F7FB">
+
+        <Grid.ColumnDefinitions>
+
+            <ColumnDefinition x:Name="SidebarColumn"
+                              Width="255"/>
+
+            <ColumnDefinition Width="*"/>
+
+        </Grid.ColumnDefinitions>
+
+
+        <!-- ===================================================== -->
+        <!-- SIDEBAR -->
+        <!-- ===================================================== -->
+
+        <Border x:Name="PricingSidebar"
+                Grid.Column="0"
+                Background="White"
+                BorderBrush="#E1E6EF"
+                BorderThickness="0,0,1,0">
+
+            <Grid>
+
+                <Grid.RowDefinitions>
+
+                    <RowDefinition Height="Auto"/>
+
+                    <RowDefinition Height="*"/>
+
+                </Grid.RowDefinitions>
+
+
+                <!-- TITLE -->
+
+                <StackPanel Margin="20,20,20,15">
+
+                    <TextBlock Text="Thiết lập tính giá"
+                               FontSize="20"
+                               FontWeight="Bold"
+                               Foreground="#172033"/>
+
+                    <TextBlock Text="Cấu hình thông số tính giá bao bì"
+                               Margin="0,5,0,0"
+                               Foreground="#7A8499"
+                               FontSize="12"/>
+
+                </StackPanel>
+
+
+                <!-- MENU -->
+
+                <ScrollViewer Grid.Row="1"
+                              VerticalScrollBarVisibility="Auto">
+
+                    <StackPanel Margin="10,0,10,20">
+
+
+                        <!-- ================================================= -->
+                        <!-- CƠ BẢN -->
+                        <!-- ================================================= -->
+
+                        <TextBlock Text="CƠ BẢN"
+                                   FontSize="11"
+                                   FontWeight="Bold"
+                                   Foreground="#1976D2"
+                                   Margin="10,8,10,5"/>
+
+
+                        <Button Content="0. Thông báo"
+                                Style="{StaticResource MenuButtonStyle}"
+                                Click="NotificationButton_Click"/>
+
+                        <Button Content="1. Độ khó sản phẩm"
+                                Style="{StaticResource MenuButtonStyle}"
+                                Click="DifficultyButton_Click"/>
+
+                        <Button Content="2. Cài đặt tái bản"
+                                Style="{StaticResource MenuButtonStyle}"
+                                Click="ReprintButton_Click"/>
+
+
+                        <!-- ================================================= -->
+                        <!-- VẬT LIỆU -->
+                        <!-- ================================================= -->
+
+                        <TextBlock Text="VẬT LIỆU"
+                                   FontSize="11"
+                                   FontWeight="Bold"
+                                   Foreground="#1976D2"
+                                   Margin="10,15,10,5"/>
+
+
+                        <Button Content="3. Định mức bù hao"
+                                Style="{StaticResource MenuButtonStyle}"
+                                Click="WasteButton_Click"/>
+
+                        <Button Content="4. Giá giấy"
+                                Style="{StaticResource MenuButtonStyle}"
+                                Click="PaperPriceButton_Click"/>
+
+                        <Button Content="5. Khổ giấy - máy in - kẽm"
+                                Style="{StaticResource MenuButtonStyle}"
+                                Click="PrintSizeButton_Click"/>
+
+                        <Button Content="6. Nhíp - Tay kê - Tràn màu"
+                                Style="{StaticResource MenuButtonStyle}"
+                                Click="GripButton_Click"/>
+
+                        <Button Content="7. Tai dán - Khóa gài"
+                                Style="{StaticResource MenuButtonStyle}"
+                                Click="GlueTabButton_Click"/>
+
+
+                        <!-- ================================================= -->
+                        <!-- SẢN PHẨM & IN -->
+                        <!-- ================================================= -->
+
+                        <TextBlock Text="SẢN PHẨM &amp; IN"
+                                   FontSize="11"
+                                   FontWeight="Bold"
+                                   Foreground="#1976D2"
+                                   Margin="10,15,10,5"/>
+
+
+                        <Button Content="8. Chủng loại sản phẩm (BOM)"
+                                Style="{StaticResource MenuButtonStyle}"
+                                Click="BomButton_Click"/>
+
+                        <Button Content="9. Lô in - Lô kẽm"
+                                Style="{StaticResource MenuButtonStyle}"
+                                Click="PrintBatchButton_Click"/>
+
+                        <Button Content="10. Quy ước kiểu in"
+                                Style="{StaticResource MenuButtonStyle}"
+                                Click="PrintTypeButton_Click"/>
+
+                        <Button Content="11. Đơn giá in và kẽm"
+                                Style="{StaticResource MenuButtonStyle}"
+                                Click="PrintPriceButton_Click"/>
+
+
+                        <!-- ================================================= -->
+                        <!-- GIA CÔNG -->
+                        <!-- ================================================= -->
+
+                        <TextBlock Text="GIA CÔNG"
+                                   FontSize="11"
+                                   FontWeight="Bold"
+                                   Foreground="#1976D2"
+                                   Margin="10,15,10,5"/>
+
+
+                        <Button Content="12. Giá gia công"
+                                Style="{StaticResource MenuButtonStyle}"
+                                Click="ProcessPriceButton_Click"/>
+
+                        <Button Content="13. Giá khuôn"
+                                Style="{StaticResource MenuButtonStyle}"
+                                Click="MoldPriceButton_Click"/>
+
+                        <Button Content="14. Đơn vị tính"
+                                Style="{StaticResource MenuButtonStyle}"
+                                Click="UnitButton_Click"/>
+
+                        <Button Content="15. Giá Support"
+                                Style="{StaticResource MenuButtonStyle}"
+                                Click="SupportButton_Click"/>
+
+                        <Button Content="16. Giá keo dán"
+                                Style="{StaticResource MenuButtonStyle}"
+                                Click="GluePriceButton_Click"/>
+
+                        <Button Content="17. Quy đổi màng"
+                                Style="{StaticResource MenuButtonStyle}"
+                                Click="FilmButton_Click"/>
+
+                    </StackPanel>
+
+                </ScrollViewer>
+
+            </Grid>
+
+        </Border>
+
+
+        <!-- ===================================================== -->
+        <!-- CONTENT -->
+        <!-- ===================================================== -->
+
+        <Grid Grid.Column="1"
+              Margin="25">
+
+            <Grid.RowDefinitions>
+
+                <RowDefinition Height="Auto"/>
+
+                <RowDefinition Height="*"/>
+
+            </Grid.RowDefinitions>
+
+
+            <!-- ================================================= -->
+            <!-- HEADER -->
+            <!-- ================================================= -->
+
+            <Grid Margin="0,0,0,20">
+
+                <Grid.ColumnDefinitions>
+
+                    <ColumnDefinition Width="45"/>
+
+                    <ColumnDefinition Width="*"/>
+
+                </Grid.ColumnDefinitions>
+
+
+                <!-- NÚT ẨN / HIỆN SIDEBAR -->
+
+                <Button x:Name="SidebarToggleButton"
+                        Grid.Column="0"
+                        Content="☰"
+                        Width="38"
+                        Height="38"
+                        FontSize="20"
+                        Background="White"
+                        Foreground="#1976D2"
+                        BorderBrush="#E1E6EF"
+                        BorderThickness="1"
+                        Cursor="Hand"
+                        Click="SidebarToggleButton_Click"
+                        ToolTip="Ẩn / hiện danh mục"/>
+
+
+                <!-- TIÊU ĐỀ -->
+
+                <StackPanel Grid.Column="1"
+                            Margin="10,0,0,0">
+
+                    <TextBlock x:Name="CurrentTitle"
+                               Text="0. Thông báo"
+                               Style="{StaticResource SectionTitleStyle}"/>
+
+                    <TextBlock x:Name="CurrentDescription"
+                               Text="Các thông báo được sử dụng trong quá trình tính giá."
+                               Foreground="#7A8499"/>
+
+                </StackPanel>
+
+            </Grid>
+
+
+            <!-- ================================================= -->
+            <!-- CONTENT AREA -->
+            <!-- ================================================= -->
+
+            <ScrollViewer Grid.Row="1"
+                          VerticalScrollBarVisibility="Auto">
+
+                <Grid>
+
+
+                    <!-- ================================================= -->
+                    <!-- 0. THÔNG BÁO -->
+                    <!-- ================================================= -->
+
+                    <Border x:Name="NotificationPanel"
+                            Background="White"
+                            BorderBrush="#E1E6EF"
+                            BorderThickness="1"
+                            CornerRadius="10"
+                            Padding="20">
+
+                        <StackPanel>
+
+                            <TextBlock Text="Thông báo"
+                                       Style="{StaticResource SectionTitleStyle}"/>
+
+                            <TextBlock Text="Nội dung thông báo của hệ thống."
+                                       Foreground="#7A8499"
+                                       Margin="0,0,0,20"/>
+
+                            <TextBlock Text="Thông báo"
+                                       Style="{StaticResource LabelStyle}"/>
+
+                            <TextBox Height="220"
+                                     AcceptsReturn="True"
+                                     TextWrapping="Wrap"
+                                     VerticalContentAlignment="Top"
+                                     Padding="10"/>
+
+                            <StackPanel Orientation="Horizontal"
+                                        HorizontalAlignment="Right"
+                                        Margin="0,15,0,0">
+
+                                <Button Content="Lưu"
+                                        Style="{StaticResource PrimaryButtonStyle}"/>
+
+                            </StackPanel>
+
+                        </StackPanel>
+
+                    </Border>
+
+
+                    <!-- ================================================= -->
+                    <!-- 1. ĐỘ KHÓ -->
+                    <!-- ================================================= -->
+
+                    <StackPanel x:Name="DifficultyPanel"
+                                Visibility="Collapsed">
+
+                        <controls:PricingDataGrid
+                            x:Name="DifficultyPricingGrid"/>
+
+                    </StackPanel>
+
+
+                    <!-- ================================================= -->
+                    <!-- 2. TÁI BẢN -->
+                    <!-- ================================================= -->
+
+                    <StackPanel x:Name="ReprintPanel"
+                                Visibility="Collapsed">
+
+                        <controls:PricingDataGrid
+                            x:Name="ReprintPricingGrid"/>
+
+                    </StackPanel>
+
+
+                    <!-- ================================================= -->
+                    <!-- 3. ĐỊNH MỨC BÙ HAO -->
+                    <!-- ================================================= -->
+
+                    <views:WastePricingView
+                    x:Name="WastePricingView"
+                    Visibility="Collapsed"/>
+
+
+                    <!-- ================================================= -->
+                    <!-- 4. GIÁ GIẤY -->
+                    <!-- ================================================= -->
+
+                    <views:PaperPricePricingView
+                        x:Name="PaperPricePricingView"
+                        Visibility="Collapsed"/>
+
+
+                    <!-- ================================================= -->
+                    <!-- 5. KHỔ GIẤY - MÁY IN - KẼM -->
+                    <!-- ================================================= -->
+
+                    <views:PaperSizePricingView
+                        x:Name="PaperSizePricingView"
+                        Visibility="Collapsed"/>
+
+
+                    <!-- ================================================= -->
+                    <!-- 6. NHÍP - TAY KÊ - TRÀN MÀU -->
+                    <!-- ================================================= -->
+
+                    <views:GripPricingView
+                    x:Name="GripPricingView"
+                    Visibility="Collapsed"/>
+
+
+                    <!-- ================================================= -->
+                    <!-- 7. TAI DÁN -->
+                    <!-- ================================================= -->
+
+                    <views:ShippingPricingView
+                        x:Name="ShippingPricingView"
+                        Visibility="Collapsed"/>
+
+
+                    <!-- ================================================= -->
+                    <!-- 8. BOM -->
+                    <!-- ================================================= -->
+
+                    <views:BomPricingView
+                        x:Name="BomPricingView"
+                        Visibility="Collapsed"/>
+
+
+                    <!-- ================================================= -->
+                    <!-- 9. LÔ IN - LÔ KẼM -->
+                    <!-- ================================================= -->
+
+                    <views:PrintBatchPricingView
+                        x:Name="PrintBatchPricingView"
+                        Visibility="Collapsed"/>
+
+
+                    <!-- ================================================= -->
+                    <!-- 10. KIỂU IN -->
+                    <!-- ================================================= -->
+
+                    <views:PrintTypePricingView
+                    x:Name="PrintTypePricingView"
+                    Visibility="Collapsed"/>
+
+
+                    <!-- ================================================= -->
+                    <!-- 11. GIÁ IN + KẼM -->
+                    <!-- ================================================= -->
+
+                    <views:PrintPricePricingView
+                        x:Name="PrintPricePricingView"
+                        Visibility="Collapsed"/>
+
+
+                    <!-- ================================================= -->
+                    <!-- 12. GIÁ GIA CÔNG -->
+                    <!-- ================================================= -->
+
+                    <views:ProcessPricePricingView
+                        x:Name="ProcessPricePricingView"
+                        Visibility="Collapsed"/>
+
+                    <!-- ===================================================== -->
+                    <!-- 13. GIÁ KHUÔN -->
+                    <!-- ===================================================== -->
+
+                    <views:MoldPricePricingView
+                        x:Name="MoldPricePricingView"
+                        Visibility="Collapsed"/>
+
+
+                    <!-- ===================================================== -->
+                    <!-- 14. ĐƠN VỊ TÍNH -->
+                    <!-- ===================================================== -->
+
+                    <views:UnitPricingView
+                        x:Name="UnitPricingView"
+                        Visibility="Collapsed"/>
+
+
+                    <!-- ===================================================== -->
+                    <!-- 15. SUPPORT -->
+                    <!-- ===================================================== -->
+
+                    <views:SupportPricingView
+                    x:Name="SupportPricingView"
+                    Visibility="Collapsed"/>
+
+
+                    <!-- ================================================= -->
+                    <!-- 16. GIÁ KEO DÁN -->
+                    <!-- ================================================= -->
+
+                    <views:GluePricePricingView
+                    x:Name="GluePricePricingView"
+                    Visibility="Collapsed"/>
+
+
+                    <!-- ================================================= -->
+                    <!-- 17. QUY ĐỔI MÀNG -->
+                    <!-- ================================================= -->
+
+                    <views:FilmPricingView
+                        x:Name="FilmPricingView"
+                        Visibility="Collapsed"/>
+
+                </Grid>
+
+            </ScrollViewer>
+
+        </Grid>
+
+    </Grid>
+
+</UserControl>

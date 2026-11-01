@@ -1,0 +1,278 @@
+﻿<UserControl x:Class="ExcelTool.Features.About.AboutView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d"
+             d:DesignHeight="650"
+             d:DesignWidth="1050">
+
+    <Grid Background="#F5F7FB">
+
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+
+            <StackPanel Margin="25">
+
+                <!-- ========================================== -->
+                <!-- HEADER -->
+                <!-- ========================================== -->
+
+                <TextBlock Text="Giới thiệu"
+                           FontSize="28"
+                           FontWeight="Bold"
+                           Foreground="#172033"/>
+
+                <TextBlock Text="Thông tin về ứng dụng"
+                           Margin="0,5,0,25"
+                           FontSize="14"
+                           Foreground="#7A8499"/>
+
+
+                <!-- ========================================== -->
+                <!-- APPLICATION -->
+                <!-- ========================================== -->
+
+                <Border Background="White"
+                        BorderBrush="#E1E6EF"
+                        BorderThickness="1"
+                        CornerRadius="10"
+                        Padding="30"
+                        Margin="0,0,0,15">
+
+                    <StackPanel HorizontalAlignment="Center">
+
+                        <!-- LOGO -->
+
+                        <Border Width="90"
+                                Height="90"
+                                CornerRadius="20"
+                                Background="#1268D5"
+                                HorizontalAlignment="Center">
+
+                            <TextBlock Text="▣"
+                                       FontSize="48"
+                                       Foreground="White"
+                                       HorizontalAlignment="Center"
+                                       VerticalAlignment="Center"/>
+
+                        </Border>
+
+
+                        <!-- NAME -->
+
+                        <TextBlock Text="Bao Bì Management"
+                                   FontSize="25"
+                                   FontWeight="Bold"
+                                   Foreground="#172033"
+                                   HorizontalAlignment="Center"
+                                   Margin="0,18,0,0"/>
+
+
+                        <!-- VERSION -->
+
+                        <TextBlock Text="Version 1.0"
+                                   FontSize="14"
+                                   Foreground="#1976D2"
+                                   HorizontalAlignment="Center"
+                                   Margin="0,5,0,0"/>
+
+
+                        <!-- DESCRIPTION -->
+
+                        <TextBlock Text="Phần mềm quản lý dữ liệu và quy trình sản xuất bao bì."
+                                   FontSize="14"
+                                   Foreground="#7A8499"
+                                   TextAlignment="Center"
+                                   HorizontalAlignment="Center"
+                                   Margin="0,18,0,0"
+                                   MaxWidth="600"/>
+
+                    </StackPanel>
+
+                </Border>
+
+
+                <!-- ========================================== -->
+                <!-- FEATURES -->
+                <!-- ========================================== -->
+
+                <Border Background="White"
+                        BorderBrush="#E1E6EF"
+                        BorderThickness="1"
+                        CornerRadius="10"
+                        Padding="25"
+                        Margin="0,0,0,15">
+
+                    <StackPanel>
+
+                        <TextBlock Text="Chức năng chính"
+                                   FontSize="18"
+                                   FontWeight="Bold"
+                                   Foreground="#172033"
+                                   Margin="0,0,0,20"/>
+
+
+                        <Grid>
+
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="45"/>
+                                <RowDefinition Height="45"/>
+                                <RowDefinition Height="45"/>
+                                <RowDefinition Height="45"/>
+                            </Grid.RowDefinitions>
+
+
+                            <TextBlock Text="✓  Quản lý dữ liệu"
+                                       Grid.Row="0"
+                                       FontSize="14"
+                                       Foreground="#596579"/>
+
+                            <TextBlock Text="✓  Quản lý khách hàng"
+                                       Grid.Row="1"
+                                       FontSize="14"
+                                       Foreground="#596579"/>
+
+                            <TextBlock Text="✓  Quản lý báo giá"
+                                       Grid.Row="2"
+                                       FontSize="14"
+                                       Foreground="#596579"/>
+
+                            <TextBlock Text="✓  Quản lý lệnh sản xuất"
+                                       Grid.Row="3"
+                                       FontSize="14"
+                                       Foreground="#596579"/>
+
+
+                            <TextBlock Text="✓  Quản lý file đính kèm"
+                                       Grid.Column="1"
+                                       Grid.Row="0"
+                                       FontSize="14"
+                                       Foreground="#596579"/>
+
+                            <TextBlock Text="✓  Báo cáo"
+                                       Grid.Column="1"
+                                       Grid.Row="1"
+                                       FontSize="14"
+                                       Foreground="#596579"/>
+
+                            <TextBlock Text="✓  Công cụ dữ liệu"
+                                       Grid.Column="1"
+                                       Grid.Row="2"
+                                       FontSize="14"
+                                       Foreground="#596579"/>
+
+                            <TextBlock Text="✓  Sao lưu dữ liệu"
+                                       Grid.Column="1"
+                                       Grid.Row="3"
+                                       FontSize="14"
+                                       Foreground="#596579"/>
+
+                        </Grid>
+
+                    </StackPanel>
+
+                </Border>
+
+
+                <!-- ========================================== -->
+                <!-- INFORMATION -->
+                <!-- ========================================== -->
+
+                <Border Background="White"
+                        BorderBrush="#E1E6EF"
+                        BorderThickness="1"
+                        CornerRadius="10"
+                        Padding="25"
+                        Margin="0,0,0,15">
+
+                    <StackPanel>
+
+                        <TextBlock Text="Thông tin ứng dụng"
+                                   FontSize="18"
+                                   FontWeight="Bold"
+                                   Foreground="#172033"
+                                   Margin="0,0,0,18"/>
+
+
+                        <Grid>
+
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="180"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="38"/>
+                                <RowDefinition Height="38"/>
+                                <RowDefinition Height="38"/>
+                                <RowDefinition Height="38"/>
+                            </Grid.RowDefinitions>
+
+
+                            <TextBlock Text="Tên ứng dụng"
+                                       Foreground="#7A8499"/>
+
+                            <TextBlock Grid.Column="1"
+                                       Text="Bao Bì Management"
+                                       FontWeight="SemiBold"
+                                       Foreground="#253044"/>
+
+
+                            <TextBlock Grid.Row="1"
+                                       Text="Phiên bản"
+                                       Foreground="#7A8499"/>
+
+                            <TextBlock Grid.Row="1"
+                                       Grid.Column="1"
+                                       Text="1.0.0"
+                                       Foreground="#253044"/>
+
+
+                            <TextBlock Grid.Row="2"
+                                       Text="Nền tảng"
+                                       Foreground="#7A8499"/>
+
+                            <TextBlock Grid.Row="2"
+                                       Grid.Column="1"
+                                       Text="Windows"
+                                       Foreground="#253044"/>
+
+
+                            <TextBlock Grid.Row="3"
+                                       Text="Trạng thái"
+                                       Foreground="#7A8499"/>
+
+                            <TextBlock Grid.Row="3"
+                                       Grid.Column="1"
+                                       Text="Đang hoạt động"
+                                       Foreground="#2E7D32"/>
+
+                        </Grid>
+
+                    </StackPanel>
+
+                </Border>
+
+
+                <!-- ========================================== -->
+                <!-- COPYRIGHT -->
+                <!-- ========================================== -->
+
+                <TextBlock Text="© 2026 Bao Bì Management. All rights reserved."
+                           HorizontalAlignment="Center"
+                           Foreground="#9AA3B2"
+                           FontSize="12"
+                           Margin="0,10,0,20"/>
+
+            </StackPanel>
+
+        </ScrollViewer>
+
+    </Grid>
+
+</UserControl>
